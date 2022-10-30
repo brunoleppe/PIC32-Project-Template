@@ -2,7 +2,18 @@
 A PIC32 project template for working outside MPLAB X
 
 This project uses a custom Makefile to build .elf, .hex and .a files with xc32 compiler.
-Tested under Windows 10,11 and Ubuntu 20.04
+Tested under Windows 10,11 and Ubuntu 20.04.
+
+You can work in any text/code editor you want. 
+## Issues
+When working on VS Code, Intellisense isn't going to work correctly on your project if you modify c_cpp_properties.json to include the microchip files (xc.h and so on), nor setting the compiler path to xc32-gcc. Do not modify c_cpp_properties.jason.
+
+When working on Atom, ccls is needed to parse c/c++ files.
+
+Currently, there's no support for c++ source files, but modifying the compiler path should be enough.
+
+
+**WARNING** this project looses all compatibility with MPLAB X projects
 
 ## Project Directory Structure
 The project structure consists of two subdirectories: **src** and **build**:
@@ -33,7 +44,7 @@ All source and header files must be placed inside **src** directory. The **build
 
 ## Configuring the Makefile
 You must configure **makefile_defs.mk** to build the project correctly.
-  1. Project name: set the **PROJNAME** variable, output files will be assigned this name ($(PROJNAME).hex).
+  1. Project name: set the **PROJNAME** variable, output files will be assigned this name.
   2. Compiler path: set **CC_PATH** to the compiler path in your system:
       * Ubuntu: /opt/microchip/xc32
       * Windows: C:/Program Files/Microchip/xc32
