@@ -70,4 +70,4 @@ Removes build directory
 ### print-%
 Outputs a Makefile variable value for Makefile debugging purposes.
 
-If **OUTPUT_DIR** is not defined, outpud files are placed inside **build** directory.
+If **OUTPUT_DIR** is not defined, output files are placed inside **build** directory.
