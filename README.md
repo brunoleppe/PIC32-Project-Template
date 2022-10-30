@@ -8,7 +8,7 @@ You can work in any text/code editor you want.
 ## Issues
 When working on VS Code, Intellisense isn't going to work correctly on your project if you modify c_cpp_properties.json to include the microchip files (xc.h and so on), nor setting the compiler path to xc32-gcc. Do not modify c_cpp_properties.jason.
 
-When working on Atom, ccls is needed to parse c/c++ files.
+When working on Atom, ccls is needed to parse c/c++ files. There are some tutorials for setting ccls in atom.
 
 Currently, there's no support for c++ source files, but modifying the compiler path should be enough.
 
