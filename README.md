@@ -29,8 +29,7 @@ project
 └───build
     │   ...
 ```
-All source and header files must be placed inside **src**.
-**build** directory and subdirectories are created at build.
+All source and header files must be placed inside **src** directory. The **build** directory and subdirectories are created at build.
 
 ## Configuring the Makefile
 You must configure **makefile_defs.mk** to build the project correctly.
