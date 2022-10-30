@@ -54,3 +54,8 @@ Builds a .hex file from a binary .elf file.
 ### library
 Builds a library .a file
 ### debug
+Builds a .hex file from a binary .elf file for debugging. Output file is named $(PROJNAME).debug.hex.
+### clean
+Removes build directory
+### print-%
+Outputs a Makefile variable value for Makefile debugging purposes.
