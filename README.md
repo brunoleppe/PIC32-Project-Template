@@ -33,20 +33,20 @@ All source and header files must be placed inside **src** directory. The **build
 
 ## Configuring the Makefile
 You must configure **makefile_defs.mk** to build the project correctly.
-  1. Project name: set the PROJNAME variable, output files will be assigned this name ($(PROJNAME).hex).
-  2. Compiler path: set CC_PATH to the compiler path in your system:
+  1. Project name: set the **PROJNAME** variable, output files will be assigned this name ($(PROJNAME).hex).
+  2. Compiler path: set **CC_PATH** to the compiler path in your system:
       * Ubuntu: /opt/microchip/xc32
       * Windows: C:/Program Files/Microchip/xc32
-  3. Compiler Version: set XC32_VER to your compiler version: x.yz
-  4. Target Processor: set PROCESSOR to your target processor. EXAMPLE: 32MZ1024EFM100, without PIC in the name.
-  5. DEBUGGER: set to target your debugger only when building for debug.
+  3. Compiler Version: set **XC32_VER** to your compiler version: x.yz
+  4. Target Processor: set **PROCESSOR** to your target processor. Example: 32MZ1024EFM100, without PIC in the name.
+  5. **DEBUGGER**: set to target your debugger only when building for debug.
   6. Optional variables:
-      * OPTIMIZE: set compiler optimizations. If you don't own a license, valid optimization values are -O, -O1.
-      * USE_LEGACY: set to TRUE or FALSE to use -legacy-libc.
-      * OUTPUT_DIR: set a directory to place output files: .elf and .hex when building target, or .a files when building library.
-      * LIBRARIES: specifies the directories of libraries used in your projects. Makefile will get every .a file inside the specified directories as object files for compilation.
-      * INCLUDEDIR: specifies the directories of external header files.
-      * UFLAGS: set this variable with user definitions and extra compiler flags.
+      * **OPTIMIZE**: set compiler optimizations. If you don't own a license, valid optimization values are -O, -O1.
+      * **USE_LEGACY**: set to TRUE or FALSE to use -legacy-libc.
+      * **OUTPUT_DIR**: set a directory to place output files: .elf and .hex when building target, or .a files when building library.
+      * **LIBRARIES**: specifies the directories of libraries used in your projects. Makefile will get every .a file inside the specified directories as object files for compilation.
+      * **INCLUDEDIR**: specifies the directories of external header files.
+      * **UFLAGS**: set this variable with user definitions and extra compiler flags.
 ## Makefile targets
 ### default, all
 Builds a .hex file from a binary .elf file. 
@@ -58,3 +58,5 @@ Builds a .hex file from a binary .elf file for debugging. Output file is named $
 Removes build directory
 ### print-%
 Outputs a Makefile variable value for Makefile debugging purposes.
+
+If **OUTPUT_DIR** is not defined, outpud files are placed inside **build** directory.
