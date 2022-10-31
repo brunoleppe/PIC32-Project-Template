@@ -5,6 +5,9 @@ This project uses a custom Makefile to build .elf, .hex and .a files with xc32 c
 Tested under Windows 10, 11 and Ubuntu 20.04.
 
 You can work in any text/code editor you want. 
+
+Debugging is possible outside mplab and is easy to work with, **but** you will need to install MPLAB X.
+Same with flashing your chips, you will need **ipecmd** or MPLAB IPE.
 ## Issues
 * When working on VS Code, Intellisense isn't going to work correctly on your project if you modify c_cpp_properties.json. Intellisense gets slow, REALLY SLOW, unusable for PIC32 projects.
 * Atom editor is not going to be mantained anymore but i've managed to get my projects working with intellisense on Linux. A bunch of plugins are needed, search for Atom as a C/C++ IDE. You will need ccls or similar to parse your files.   
