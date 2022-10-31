@@ -11,7 +11,8 @@ Same with flashing your chips, you will need **ipecmd** or MPLAB IPE.
 ## Issues
 * When working on VS Code, Intellisense isn't going to work correctly on your project if you modify c_cpp_properties.json. Intellisense gets slow, REALLY SLOW, unusable for PIC32 projects.
 * Atom editor is not going to be mantained anymore but i've managed to get my projects working with intellisense on Linux. A bunch of plugins are needed, search for Atom as a C/C++ IDE. You will need ccls or similar to parse your files.   
-* Currently, for this makefile there's no support for c++ source files.
+* Currently, for this makefile there's no support for c++ source files yet.
+* Currently, for this makefile there's no support for custom linker scirpts yet.
 * Building on linux is slow for some reason. 
 
 ### Working on windows
@@ -65,6 +66,7 @@ You must configure **makefile_defs.mk** to build the project correctly.
       * **INCLUDEDIR**: specifies the directories of external header files.
       * **UFLAGS**: set this variable with user definitions and extra compiler flags.
 ## Makefile targets
+**Note:** If **OUTPUT_DIR** is not defined, output files are placed inside **build** directory.
 ### default, all
 Builds a .hex file from a binary .elf file. 
 ### library
@@ -76,4 +78,4 @@ Removes build directory
 ### print-%
 Outputs a Makefile variable value for Makefile debugging purposes.
 
-**Note:** If **OUTPUT_DIR** is not defined, output files are placed inside **build** directory.
+
