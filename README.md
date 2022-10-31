@@ -12,7 +12,7 @@ You can work in any text/code editor you want.
 * Building on linux is slow for some reason. 
 
 ### Working on windows
-Git Bash needed for building. The Makefile utilizes find command not available on Windows shells.
+Git Bash needed for building. The Makefile utilizes find command not available on Windows shells (Windows has its own version of find command not suitable for this Makefile).
 MPLAB installation provides GnuBins, you can use make from this directory to build your projects.
 
 
