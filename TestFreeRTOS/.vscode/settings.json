@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "freertos.h": "c",
+        "portable.h": "c",
+        "portmacro.h": "c",
+        "delay.h": "c",
+        "definitions.h": "c",
+        "spi.h": "c",
+        "uart.h": "c",
+        "initialization.h": "c"
+    }
+}
