@@ -2,7 +2,7 @@
 #Binary file will be named $(PROJNAME).elf and HEX file will be named $(PROJNAME).hex
 #Debug file will be named $(PROJNAME).debug.elf
 #Library file will be named $(PROJNAME).a
-PROJNAME   	= TestFreeRTOS
+PROJNAME   	= TestProject
 
 #Project Directories
 PROJDIR 	= $(CURDIR)

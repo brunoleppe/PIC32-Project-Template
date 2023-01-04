@@ -81,11 +81,11 @@ debug_build: CFLAGS += $(DFLAGS)
 debug_build: AFLAGS = $(ASM_DFLAGS),
 debug_build: LFLAGS = $(LINK_DFLAGS)
 debug_build: $(OBJECTS) $(AOBJECTS)
-	$(CC) $(DFLAGS) $(MPROCESSOR) $(OBJECTS) $(AOBJECTS) $(LIBOBJECTS) -o $(DEBUG_TARGET) $(DXPRJ) $(LIBC) -Wl,--defsym=__MPLAB_BUILD=1,$(LFLAGS),--gc-sections,--no-code-in-dinit,--no-dinit-in-serial-mem,-Map=$(BUILDDIR)/reader.map,--memorysummary,$(BUILDDIR)/memoryfile.xml 
+	$(CC) $(DFLAGS) $(MPROCESSOR) $(OBJECTS) $(AOBJECTS) $(LIBOBJECTS) -o $(DEBUG_TARGET) $(DXPRJ) $(LIBC) -Wl,-defsym=__MPLAB_BUILD=1,$(LFLAGS),--gc-sections,--no-code-in-dinit,--no-dinit-in-serial-mem,-Map=$(BUILDDIR)/reader.map,--memorysummary,$(BUILDDIR)/memoryfile.xml 
 	@echo Building Debug done!
 
 $(TARGET): $(OBJECTS) $(AOBJECTS)
-	@$(CC) $(MPROCESSOR) $(OBJECTS) $(AOBJECTS) $(LIBOBJECTS) -o $(TARGET) $(DXPRJ) $(LIBC) -Wl,--defsym=__MPLAB_BUILD=1,--gc-sections,--no-code-in-dinit,--no-dinit-in-serial-mem,-Map=$(BUILDDIR)/reader.map,--memorysummary,$(BUILDDIR)/memoryfile.xml 
+	@$(CC) $(MPROCESSOR) $(OBJECTS) $(AOBJECTS) $(LIBOBJECTS) -o $(TARGET) $(DXPRJ) $(LIBC) -Wl,--defsym=_min_heap_size=$(HEAP),--defsym=__MPLAB_BUILD=1,--gc-sections,--no-code-in-dinit,--no-dinit-in-serial-mem,-Map=$(BUILDDIR)/reader.map,--memorysummary,$(BUILDDIR)/memoryfile.xml 
 	@$(HEX) $(TARGET) 
 	@echo Building done!
 
