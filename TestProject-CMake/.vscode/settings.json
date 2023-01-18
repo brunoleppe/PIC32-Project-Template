@@ -1,0 +1,7 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}/src",
+    "files.associations": {
+        "delay.h": "c",
+        "xc.h": "c"
+    }
+}
