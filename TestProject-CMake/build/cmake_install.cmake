@@ -1,4 +1,4 @@
-# Install script for directory: /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src
+# Install script for directory: /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

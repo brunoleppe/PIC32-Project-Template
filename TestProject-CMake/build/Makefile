@@ -60,10 +60,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src
+CMAKE_SOURCE_DIR = /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build
+CMAKE_BINARY_DIR = /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -90,9 +90,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build/CMakeFiles /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,6 +131,19 @@ test.elf: cmake_check_build_system
 test.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.elf.dir/build.make CMakeFiles/test.elf.dir/build
 .PHONY : test.elf/fast
+
+#=============================================================================
+# Target rules for targets named test.hex
+
+# Build rule for target.
+test.hex: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test.hex
+.PHONY : test.hex
+
+# fast build rule for target.
+test.hex/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.hex.dir/build.make CMakeFiles/test.hex.dir/build
+.PHONY : test.hex/fast
 
 delay.o: delay.c.o
 .PHONY : delay.o
@@ -220,6 +233,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... test.hex"
 	@echo "... test.elf"
 	@echo "... delay.o"
 	@echo "... delay.i"

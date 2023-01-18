@@ -195,7 +195,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build"
+			"value" : "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -615,7 +615,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src"
+			"value" : "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1151,7 +1151,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build"
+			"value" : "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build"
 		},
 		{
 			"name" : "test_IS_TOP_LEVEL",
@@ -1175,7 +1175,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src"
+			"value" : "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src"
 		}
 	],
 	"kind" : "cache",

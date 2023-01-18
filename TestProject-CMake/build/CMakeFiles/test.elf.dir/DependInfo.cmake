@@ -8,12 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/ex1.S" "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build/CMakeFiles/test.elf.dir/ex1.S.o"
+  "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/ex1.S" "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles/test.elf.dir/ex1.S.o"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_ASM
+  "BRUNO"
+  "LEPPE"
   "XPRJ_default=default"
   )
 
@@ -23,9 +25,9 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/delay.c" "CMakeFiles/test.elf.dir/delay.c.o" "gcc" "CMakeFiles/test.elf.dir/delay.c.o.d"
-  "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/initialization.c" "CMakeFiles/test.elf.dir/initialization.c.o" "gcc" "CMakeFiles/test.elf.dir/initialization.c.o.d"
-  "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/main.c" "CMakeFiles/test.elf.dir/main.c.o" "gcc" "CMakeFiles/test.elf.dir/main.c.o.d"
+  "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/delay.c" "CMakeFiles/test.elf.dir/delay.c.o" "gcc" "CMakeFiles/test.elf.dir/delay.c.o.d"
+  "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/initialization.c" "CMakeFiles/test.elf.dir/initialization.c.o" "gcc" "CMakeFiles/test.elf.dir/initialization.c.o.d"
+  "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/main.c" "CMakeFiles/test.elf.dir/main.c.o" "gcc" "CMakeFiles/test.elf.dir/main.c.o.d"
   )
 
 # Targets to which this target links.

@@ -10,7 +10,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.22.1/CMakeASMCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
-  "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/CMakeLists.txt"
+  "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/CMakeLists.txt"
   "/usr/share/cmake-3.22/Modules/CMakeASMInformation.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake"
@@ -43,4 +43,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/test.elf.dir/DependInfo.cmake"
+  "CMakeFiles/test.hex.dir/DependInfo.cmake"
   )

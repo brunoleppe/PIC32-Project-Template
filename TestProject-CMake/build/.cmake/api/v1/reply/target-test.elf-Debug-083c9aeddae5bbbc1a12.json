@@ -28,31 +28,31 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 19,
+				"line" : 20,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 36,
+				"line" : 51,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 37,
+				"line" : 52,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 34,
+				"line" : 49,
 				"parent" : 0
 			},
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 35,
+				"line" : 50,
 				"parent" : 0
 			}
 		]
@@ -84,6 +84,14 @@
 			],
 			"defines" : 
 			[
+				{
+					"backtrace" : 5,
+					"define" : "BRUNO"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LEPPE"
+				},
 				{
 					"backtrace" : 5,
 					"define" : "XPRJ_default=default"
@@ -124,6 +132,14 @@
 			[
 				{
 					"backtrace" : 5,
+					"define" : "BRUNO"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LEPPE"
+				},
+				{
+					"backtrace" : 5,
 					"define" : "XPRJ_default=default"
 				}
 			],
@@ -159,7 +175,7 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "-Wl,--defsym=_min_heap_size=0x1000,--defsym=__MPLAB_BUILD=1,--gc-sections,--no-code-in-dinit,--no-dinit-in-serial-mem,-Map=/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build/test.map,--memorysummary,/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build/memoryfile.xml",
+				"fragment" : "-Wl,--defsym=_min_heap_size=0x1000,--defsym=__MPLAB_BUILD=1,--gc-sections,--no-code-in-dinit,--no-dinit-in-serial-mem,-Map=/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/test.map,--memorysummary,/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/memoryfile.xml",
 				"role" : "libraries"
 			}
 		],

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/ex1.S
+/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/ex1.S
 xc.h
 -
 

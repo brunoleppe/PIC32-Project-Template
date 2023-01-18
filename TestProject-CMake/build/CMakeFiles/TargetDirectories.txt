@@ -1,3 +1,4 @@
-/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build/CMakeFiles/test.elf.dir
-/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build/CMakeFiles/edit_cache.dir
-/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build/CMakeFiles/rebuild_cache.dir
+/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles/test.elf.dir
+/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles/test.hex.dir
+/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles/edit_cache.dir
+/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles/rebuild_cache.dir

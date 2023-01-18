@@ -57,16 +57,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src
+CMAKE_SOURCE_DIR = /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build
+CMAKE_BINARY_DIR = /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
 all: CMakeFiles/test.elf.dir/all
+all: CMakeFiles/test.hex.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -75,6 +76,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/test.elf.dir/clean
+clean: CMakeFiles/test.hex.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -84,14 +86,14 @@ clean: CMakeFiles/test.elf.dir/clean
 CMakeFiles/test.elf.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.elf.dir/build.make CMakeFiles/test.elf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.elf.dir/build.make CMakeFiles/test.elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target test.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target test.elf"
 .PHONY : CMakeFiles/test.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test.elf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test.elf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles 0
 .PHONY : CMakeFiles/test.elf.dir/rule
 
 # Convenience name for target.
@@ -102,6 +104,32 @@ test.elf: CMakeFiles/test.elf.dir/rule
 CMakeFiles/test.elf.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.elf.dir/build.make CMakeFiles/test.elf.dir/clean
 .PHONY : CMakeFiles/test.elf.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test.hex.dir
+
+# All Build rule for target.
+CMakeFiles/test.hex.dir/all: CMakeFiles/test.elf.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.hex.dir/build.make CMakeFiles/test.hex.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.hex.dir/build.make CMakeFiles/test.hex.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles --progress-num=6 "Built target test.hex"
+.PHONY : CMakeFiles/test.hex.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test.hex.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test.hex.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles 0
+.PHONY : CMakeFiles/test.hex.dir/rule
+
+# Convenience name for target.
+test.hex: CMakeFiles/test.hex.dir/rule
+.PHONY : test.hex
+
+# clean rule for target.
+CMakeFiles/test.hex.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.hex.dir/build.make CMakeFiles/test.hex.dir/clean
+.PHONY : CMakeFiles/test.hex.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

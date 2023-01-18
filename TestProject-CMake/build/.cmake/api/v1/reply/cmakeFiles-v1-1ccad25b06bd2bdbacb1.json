@@ -6,7 +6,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build/CMakeFiles/3.22.1/CMakeSystem.cmake"
+			"path" : "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles/3.22.1/CMakeSystem.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -15,11 +15,11 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build/CMakeFiles/3.22.1/CMakeCCompiler.cmake"
+			"path" : "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles/3.22.1/CMakeCCompiler.cmake"
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build/CMakeFiles/3.22.1/CMakeASMCompiler.cmake"
+			"path" : "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles/3.22.1/CMakeASMCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -105,8 +105,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build",
-		"source" : "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src"
+		"build" : "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build",
+		"source" : "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src"
 	},
 	"version" : 
 	{

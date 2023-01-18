@@ -1,22 +1,22 @@
 [
 {
-  "directory": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build",
-  "command": "/opt/microchip/xc32/v4.21/bin/xc32-gcc -DXPRJ_default=default  -g -Wall -mprocessor=32MZ1024EFM100 -O1 -no-legacy-libc -o CMakeFiles/test.elf.dir/delay.c.o -c /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/delay.c",
-  "file": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/delay.c"
+  "directory": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build",
+  "command": "/opt/microchip/xc32/v4.21/bin/xc32-gcc -DBRUNO -DLEPPE -DXPRJ_default=default  -g -Wall -mprocessor=32MZ1024EFM100 -O1 -no-legacy-libc -o CMakeFiles/test.elf.dir/delay.c.o -c /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/delay.c",
+  "file": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/delay.c"
 },
 {
-  "directory": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build",
-  "command": "/opt/microchip/xc32/v4.21/bin/xc32-gcc -DXPRJ_default=default  -g -Wall -mprocessor=32MZ1024EFM100 -O1 -no-legacy-libc -o CMakeFiles/test.elf.dir/initialization.c.o -c /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/initialization.c",
-  "file": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/initialization.c"
+  "directory": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build",
+  "command": "/opt/microchip/xc32/v4.21/bin/xc32-gcc -DBRUNO -DLEPPE -DXPRJ_default=default  -g -Wall -mprocessor=32MZ1024EFM100 -O1 -no-legacy-libc -o CMakeFiles/test.elf.dir/initialization.c.o -c /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/initialization.c",
+  "file": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/initialization.c"
 },
 {
-  "directory": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build",
-  "command": "/opt/microchip/xc32/v4.21/bin/xc32-gcc -DXPRJ_default=default  -g -Wall -mprocessor=32MZ1024EFM100 -O1 -no-legacy-libc -o CMakeFiles/test.elf.dir/main.c.o -c /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/main.c",
-  "file": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/main.c"
+  "directory": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build",
+  "command": "/opt/microchip/xc32/v4.21/bin/xc32-gcc -DBRUNO -DLEPPE -DXPRJ_default=default  -g -Wall -mprocessor=32MZ1024EFM100 -O1 -no-legacy-libc -o CMakeFiles/test.elf.dir/main.c.o -c /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/main.c",
+  "file": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/main.c"
 },
 {
-  "directory": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build",
-  "command": "/opt/microchip/xc32/v4.21/bin/xc32-gcc -DXPRJ_default=default   -Wa,--defsym=__MPLAB_BUILD=1,--gdwarf-2 -g -Wall -mprocessor=32MZ1024EFM100 -O1 -no-legacy-libc -o CMakeFiles/test.elf.dir/ex1.S.o -c /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/ex1.S",
-  "file": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/ex1.S"
+  "directory": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build",
+  "command": "/opt/microchip/xc32/v4.21/bin/xc32-gcc -DBRUNO -DLEPPE -DXPRJ_default=default   -Wa,--defsym=__MPLAB_BUILD=1,--gdwarf-2 -g -Wall -mprocessor=32MZ1024EFM100 -O1 -no-legacy-libc -o CMakeFiles/test.elf.dir/ex1.S.o -c /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/ex1.S",
+  "file": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/ex1.S"
 }
 ]

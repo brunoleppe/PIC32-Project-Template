@@ -1,5 +1,5 @@
 CMakeFiles/test.elf.dir/delay.c.o: \
- /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/delay.c \
+ /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/delay.c \
  /opt/microchip/xc32/v4.21/pic32mx/include/xc.h \
  /opt/microchip/xc32/v4.21/pic32mx/include/proc/PIC32MZ-EF/p32mz1024efm100.h \
  /opt/microchip/xc32/v4.21/pic32mx/include/musl/stdint.h \
@@ -12,5 +12,5 @@ CMakeFiles/test.elf.dir/delay.c.o: \
  /opt/microchip/xc32/v4.21/pic32mx/include/musl/stdlib.h \
  /opt/microchip/xc32/v4.21/pic32mx/include/musl/features.h \
  /opt/microchip/xc32/v4.21/pic32mx/include/musl/alloca.h \
- /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/delay.h \
- /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/initialization.h
+ /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/delay.h \
+ /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/initialization.h

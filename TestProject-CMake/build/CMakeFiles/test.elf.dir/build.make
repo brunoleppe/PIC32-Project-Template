@@ -56,10 +56,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src
+CMAKE_SOURCE_DIR = /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build
+CMAKE_BINARY_DIR = /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/test.elf.dir/depend.make
@@ -73,59 +73,59 @@ include CMakeFiles/test.elf.dir/progress.make
 include CMakeFiles/test.elf.dir/flags.make
 
 CMakeFiles/test.elf.dir/delay.c.o: CMakeFiles/test.elf.dir/flags.make
-CMakeFiles/test.elf.dir/delay.c.o: /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/delay.c
+CMakeFiles/test.elf.dir/delay.c.o: /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/delay.c
 CMakeFiles/test.elf.dir/delay.c.o: CMakeFiles/test.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/test.elf.dir/delay.c.o"
-	/opt/microchip/xc32/v4.21/bin/xc32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.elf.dir/delay.c.o -MF CMakeFiles/test.elf.dir/delay.c.o.d -o CMakeFiles/test.elf.dir/delay.c.o -c /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/delay.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/test.elf.dir/delay.c.o"
+	/opt/microchip/xc32/v4.21/bin/xc32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.elf.dir/delay.c.o -MF CMakeFiles/test.elf.dir/delay.c.o.d -o CMakeFiles/test.elf.dir/delay.c.o -c /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/delay.c
 
 CMakeFiles/test.elf.dir/delay.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.elf.dir/delay.c.i"
-	/opt/microchip/xc32/v4.21/bin/xc32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/delay.c > CMakeFiles/test.elf.dir/delay.c.i
+	/opt/microchip/xc32/v4.21/bin/xc32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/delay.c > CMakeFiles/test.elf.dir/delay.c.i
 
 CMakeFiles/test.elf.dir/delay.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.elf.dir/delay.c.s"
-	/opt/microchip/xc32/v4.21/bin/xc32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/delay.c -o CMakeFiles/test.elf.dir/delay.c.s
+	/opt/microchip/xc32/v4.21/bin/xc32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/delay.c -o CMakeFiles/test.elf.dir/delay.c.s
 
 CMakeFiles/test.elf.dir/initialization.c.o: CMakeFiles/test.elf.dir/flags.make
-CMakeFiles/test.elf.dir/initialization.c.o: /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/initialization.c
+CMakeFiles/test.elf.dir/initialization.c.o: /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/initialization.c
 CMakeFiles/test.elf.dir/initialization.c.o: CMakeFiles/test.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/test.elf.dir/initialization.c.o"
-	/opt/microchip/xc32/v4.21/bin/xc32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.elf.dir/initialization.c.o -MF CMakeFiles/test.elf.dir/initialization.c.o.d -o CMakeFiles/test.elf.dir/initialization.c.o -c /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/initialization.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/test.elf.dir/initialization.c.o"
+	/opt/microchip/xc32/v4.21/bin/xc32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.elf.dir/initialization.c.o -MF CMakeFiles/test.elf.dir/initialization.c.o.d -o CMakeFiles/test.elf.dir/initialization.c.o -c /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/initialization.c
 
 CMakeFiles/test.elf.dir/initialization.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.elf.dir/initialization.c.i"
-	/opt/microchip/xc32/v4.21/bin/xc32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/initialization.c > CMakeFiles/test.elf.dir/initialization.c.i
+	/opt/microchip/xc32/v4.21/bin/xc32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/initialization.c > CMakeFiles/test.elf.dir/initialization.c.i
 
 CMakeFiles/test.elf.dir/initialization.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.elf.dir/initialization.c.s"
-	/opt/microchip/xc32/v4.21/bin/xc32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/initialization.c -o CMakeFiles/test.elf.dir/initialization.c.s
+	/opt/microchip/xc32/v4.21/bin/xc32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/initialization.c -o CMakeFiles/test.elf.dir/initialization.c.s
 
 CMakeFiles/test.elf.dir/main.c.o: CMakeFiles/test.elf.dir/flags.make
-CMakeFiles/test.elf.dir/main.c.o: /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/main.c
+CMakeFiles/test.elf.dir/main.c.o: /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/main.c
 CMakeFiles/test.elf.dir/main.c.o: CMakeFiles/test.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/test.elf.dir/main.c.o"
-	/opt/microchip/xc32/v4.21/bin/xc32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.elf.dir/main.c.o -MF CMakeFiles/test.elf.dir/main.c.o.d -o CMakeFiles/test.elf.dir/main.c.o -c /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/test.elf.dir/main.c.o"
+	/opt/microchip/xc32/v4.21/bin/xc32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.elf.dir/main.c.o -MF CMakeFiles/test.elf.dir/main.c.o.d -o CMakeFiles/test.elf.dir/main.c.o -c /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/main.c
 
 CMakeFiles/test.elf.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.elf.dir/main.c.i"
-	/opt/microchip/xc32/v4.21/bin/xc32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/main.c > CMakeFiles/test.elf.dir/main.c.i
+	/opt/microchip/xc32/v4.21/bin/xc32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/main.c > CMakeFiles/test.elf.dir/main.c.i
 
 CMakeFiles/test.elf.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.elf.dir/main.c.s"
-	/opt/microchip/xc32/v4.21/bin/xc32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/main.c -o CMakeFiles/test.elf.dir/main.c.s
+	/opt/microchip/xc32/v4.21/bin/xc32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/main.c -o CMakeFiles/test.elf.dir/main.c.s
 
 CMakeFiles/test.elf.dir/ex1.S.o: CMakeFiles/test.elf.dir/flags.make
-CMakeFiles/test.elf.dir/ex1.S.o: /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/ex1.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building ASM object CMakeFiles/test.elf.dir/ex1.S.o"
-	/opt/microchip/xc32/v4.21/bin/xc32-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/test.elf.dir/ex1.S.o -c /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/ex1.S
+CMakeFiles/test.elf.dir/ex1.S.o: /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/ex1.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building ASM object CMakeFiles/test.elf.dir/ex1.S.o"
+	/opt/microchip/xc32/v4.21/bin/xc32-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/test.elf.dir/ex1.S.o -c /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/ex1.S
 
 CMakeFiles/test.elf.dir/ex1.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/test.elf.dir/ex1.S.i"
-	/opt/microchip/xc32/v4.21/bin/xc32-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/ex1.S > CMakeFiles/test.elf.dir/ex1.S.i
+	/opt/microchip/xc32/v4.21/bin/xc32-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/ex1.S > CMakeFiles/test.elf.dir/ex1.S.i
 
 CMakeFiles/test.elf.dir/ex1.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/test.elf.dir/ex1.S.s"
-	/opt/microchip/xc32/v4.21/bin/xc32-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src/ex1.S -o CMakeFiles/test.elf.dir/ex1.S.s
+	/opt/microchip/xc32/v4.21/bin/xc32-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/ex1.S -o CMakeFiles/test.elf.dir/ex1.S.s
 
 # Object files for target test.elf
 test_elf_OBJECTS = \
@@ -143,7 +143,7 @@ test.elf: CMakeFiles/test.elf.dir/main.c.o
 test.elf: CMakeFiles/test.elf.dir/ex1.S.o
 test.elf: CMakeFiles/test.elf.dir/build.make
 test.elf: CMakeFiles/test.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable test.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable test.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test.elf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -155,6 +155,6 @@ CMakeFiles/test.elf.dir/clean:
 .PHONY : CMakeFiles/test.elf.dir/clean
 
 CMakeFiles/test.elf.dir/depend:
-	cd /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/src /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/build/CMakeFiles/test.elf.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles/test.elf.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/test.elf.dir/depend
 
