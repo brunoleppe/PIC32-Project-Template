@@ -1,3 +1,0 @@
-/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/cmake-build/CMakeFiles/test.elf.dir
-/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/cmake-build/CMakeFiles/edit_cache.dir
-/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject/cmake-build/CMakeFiles/rebuild_cache.dir

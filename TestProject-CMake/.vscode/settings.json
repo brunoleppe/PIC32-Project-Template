@@ -1,7 +1,11 @@
 {
-    "cmake.sourceDirectory": "${workspaceFolder}/src",
     "files.associations": {
         "delay.h": "c",
-        "xc.h": "c"
-    }
+        "xc.h": "c",
+        "initialization.h": "c",
+        "pmec1404.h": "c",
+        "p32mz1024efm100.h": "c",
+        "stdint.h": "c"
+    },
+    "cmake.sourceDirectory": "${workspaceFolder}/src"
 }

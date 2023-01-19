@@ -1,22 +1,62 @@
 [
 {
   "directory": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build",
-  "command": "/opt/microchip/xc32/v4.21/bin/xc32-gcc -DBRUNO -DLEPPE -DXPRJ_default=default  -g -Wall -mprocessor=32MZ1024EFM100 -O1 -no-legacy-libc -o CMakeFiles/test.elf.dir/delay.c.o -c /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/delay.c",
-  "file": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/delay.c"
-},
-{
-  "directory": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build",
-  "command": "/opt/microchip/xc32/v4.21/bin/xc32-gcc -DBRUNO -DLEPPE -DXPRJ_default=default  -g -Wall -mprocessor=32MZ1024EFM100 -O1 -no-legacy-libc -o CMakeFiles/test.elf.dir/initialization.c.o -c /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/initialization.c",
+  "command": "/opt/microchip/xc32/v4.21/bin/xc32-gcc -DBRUNO -DLEPPE -DXPRJ_default=default -D__32MZ1024EFM100__ -D__PIC32MZ__ -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/include -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/portable/MPLAB/PIC32MZ -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src -g -Wall -mprocessor=32MZ1024EFM100 -O1 -fdata-sections -ffunction-sections -no-legacy-libc -o CMakeFiles/test.elf.dir/initialization.c.o -c /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/initialization.c",
   "file": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/initialization.c"
 },
 {
   "directory": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build",
-  "command": "/opt/microchip/xc32/v4.21/bin/xc32-gcc -DBRUNO -DLEPPE -DXPRJ_default=default  -g -Wall -mprocessor=32MZ1024EFM100 -O1 -no-legacy-libc -o CMakeFiles/test.elf.dir/main.c.o -c /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/main.c",
+  "command": "/opt/microchip/xc32/v4.21/bin/xc32-gcc -DBRUNO -DLEPPE -DXPRJ_default=default -D__32MZ1024EFM100__ -D__PIC32MZ__ -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/include -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/portable/MPLAB/PIC32MZ -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src -g -Wall -mprocessor=32MZ1024EFM100 -O1 -fdata-sections -ffunction-sections -no-legacy-libc -o CMakeFiles/test.elf.dir/main.c.o -c /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/main.c",
   "file": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/main.c"
 },
 {
-  "directory": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build",
-  "command": "/opt/microchip/xc32/v4.21/bin/xc32-gcc -DBRUNO -DLEPPE -DXPRJ_default=default   -Wa,--defsym=__MPLAB_BUILD=1,--gdwarf-2 -g -Wall -mprocessor=32MZ1024EFM100 -O1 -no-legacy-libc -o CMakeFiles/test.elf.dir/ex1.S.o -c /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/ex1.S",
-  "file": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/ex1.S"
+  "directory": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/FreeRTOS",
+  "command": "/opt/microchip/xc32/v4.21/bin/xc32-gcc  -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/include -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/portable/MPLAB/PIC32MZ -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src -g -Wall -mprocessor=32MZ1024EFM100 -O1 -fdata-sections -ffunction-sections -no-legacy-libc -o CMakeFiles/FreeRTOS.dir/Source/portable/MemMang/heap_4.c.o -c /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/portable/MemMang/heap_4.c",
+  "file": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/portable/MemMang/heap_4.c"
+},
+{
+  "directory": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/FreeRTOS",
+  "command": "/opt/microchip/xc32/v4.21/bin/xc32-gcc  -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/include -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/portable/MPLAB/PIC32MZ -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src -g -Wall -mprocessor=32MZ1024EFM100 -O1 -fdata-sections -ffunction-sections -no-legacy-libc -o CMakeFiles/FreeRTOS.dir/Source/portable/MPLAB/PIC32MZ/port.c.o -c /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/portable/MPLAB/PIC32MZ/port.c",
+  "file": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/portable/MPLAB/PIC32MZ/port.c"
+},
+{
+  "directory": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/FreeRTOS",
+  "command": "/opt/microchip/xc32/v4.21/bin/xc32-gcc  -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/include -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/portable/MPLAB/PIC32MZ -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src -g -Wall -mprocessor=32MZ1024EFM100 -O1 -fdata-sections -ffunction-sections -no-legacy-libc -o CMakeFiles/FreeRTOS.dir/Source/portable/MPLAB/PIC32MZ/port_asm.S.o -c /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/portable/MPLAB/PIC32MZ/port_asm.S",
+  "file": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/portable/MPLAB/PIC32MZ/port_asm.S"
+},
+{
+  "directory": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/FreeRTOS",
+  "command": "/opt/microchip/xc32/v4.21/bin/xc32-gcc  -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/include -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/portable/MPLAB/PIC32MZ -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src -g -Wall -mprocessor=32MZ1024EFM100 -O1 -fdata-sections -ffunction-sections -no-legacy-libc -o CMakeFiles/FreeRTOS.dir/Source/croutine.c.o -c /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/croutine.c",
+  "file": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/croutine.c"
+},
+{
+  "directory": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/FreeRTOS",
+  "command": "/opt/microchip/xc32/v4.21/bin/xc32-gcc  -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/include -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/portable/MPLAB/PIC32MZ -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src -g -Wall -mprocessor=32MZ1024EFM100 -O1 -fdata-sections -ffunction-sections -no-legacy-libc -o CMakeFiles/FreeRTOS.dir/Source/event_groups.c.o -c /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/event_groups.c",
+  "file": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/event_groups.c"
+},
+{
+  "directory": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/FreeRTOS",
+  "command": "/opt/microchip/xc32/v4.21/bin/xc32-gcc  -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/include -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/portable/MPLAB/PIC32MZ -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src -g -Wall -mprocessor=32MZ1024EFM100 -O1 -fdata-sections -ffunction-sections -no-legacy-libc -o CMakeFiles/FreeRTOS.dir/Source/FreeRTOS_tasks.c.o -c /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/FreeRTOS_tasks.c",
+  "file": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/FreeRTOS_tasks.c"
+},
+{
+  "directory": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/FreeRTOS",
+  "command": "/opt/microchip/xc32/v4.21/bin/xc32-gcc  -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/include -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/portable/MPLAB/PIC32MZ -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src -g -Wall -mprocessor=32MZ1024EFM100 -O1 -fdata-sections -ffunction-sections -no-legacy-libc -o CMakeFiles/FreeRTOS.dir/Source/list.c.o -c /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/list.c",
+  "file": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/list.c"
+},
+{
+  "directory": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/FreeRTOS",
+  "command": "/opt/microchip/xc32/v4.21/bin/xc32-gcc  -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/include -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/portable/MPLAB/PIC32MZ -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src -g -Wall -mprocessor=32MZ1024EFM100 -O1 -fdata-sections -ffunction-sections -no-legacy-libc -o CMakeFiles/FreeRTOS.dir/Source/queue.c.o -c /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/queue.c",
+  "file": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/queue.c"
+},
+{
+  "directory": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/FreeRTOS",
+  "command": "/opt/microchip/xc32/v4.21/bin/xc32-gcc  -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/include -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/portable/MPLAB/PIC32MZ -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src -g -Wall -mprocessor=32MZ1024EFM100 -O1 -fdata-sections -ffunction-sections -no-legacy-libc -o CMakeFiles/FreeRTOS.dir/Source/stream_buffer.c.o -c /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/stream_buffer.c",
+  "file": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/stream_buffer.c"
+},
+{
+  "directory": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/FreeRTOS",
+  "command": "/opt/microchip/xc32/v4.21/bin/xc32-gcc  -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/include -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/portable/MPLAB/PIC32MZ -I/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src -g -Wall -mprocessor=32MZ1024EFM100 -O1 -fdata-sections -ffunction-sections -no-legacy-libc -o CMakeFiles/FreeRTOS.dir/Source/timers.c.o -c /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/timers.c",
+  "file": "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/timers.c"
 }
 ]

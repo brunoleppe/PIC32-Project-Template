@@ -1,22 +1,28 @@
 cmake_minimum_required(VERSION 3.22.1)
 
+set(CMAKE_C_COMPILER xc32-gcc)
+
 set(PIC  32MZ1024EFM100)
 set(OPTIMIZATION 1)
 set(USER_FLAGS -Wall)
-set(DEFINES BRUNO LEPPE)
-set(HEAP 0x1000)
+set(USER_DEFINES BRUNO LEPPE)
+set(HEAP 0)
 
-set(CMAKE_C_COMPILER xc32-gcc)
-set(CMAKE_VERBOSE_MAKEFILE True)
+
+# set(CMAKE_VERBOSE_MAKEFILE True)
 
 set(SOURCES 
-    delay.c
     initialization.c
     main.c
-    ex1.S
 )
 
 project(test C ASM)
+
+include_directories(FreeRTOS/Source/include)
+include_directories(FreeRTOS/Source/portable/MPLAB/PIC32MZ)
+include_directories(/home/bleppe//Documents/Github/PIC32-Project-Template/TestProject-CMake/src)
+add_subdirectory(FreeRTOS)
+
 add_executable(${PROJECT_NAME}.elf ${SOURCES})
 
 
@@ -46,7 +52,10 @@ add_custom_target(${PROJECT_NAME}.hex ALL
     DEPENDS ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.hex
 )
 
-target_compile_options(${PROJECT_NAME}.elf PUBLIC ${USER_FLAGS} ${MPROCESSOR} ${MOPTIMIZATION} -no-legacy-libc)
+set(DEFINES ${USER_DEFINES} __${PIC}__ __PIC32MZ__)
+
+target_compile_options(${PROJECT_NAME}.elf PUBLIC ${USER_FLAGS} ${MPROCESSOR} ${MOPTIMIZATION} -fdata-sections -ffunction-sections -no-legacy-libc)
 target_compile_definitions(${PROJECT_NAME}.elf PUBLIC XPRJ_default=default ${DEFINES})
 target_link_options(${PROJECT_NAME}.elf PUBLIC ${MPROCESSOR} ${MOPTIMIZATION} )
 target_link_libraries(${PROJECT_NAME}.elf "-Wl,${XC32_LINK_FLAGS}")
+target_link_libraries(${PROJECT_NAME}.elf FreeRTOS)

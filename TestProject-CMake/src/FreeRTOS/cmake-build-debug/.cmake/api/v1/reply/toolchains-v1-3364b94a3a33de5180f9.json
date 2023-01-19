@@ -1,0 +1,112 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/opt/microchip/xc32/v4.21/pic32mx/include",
+						"/opt/microchip/xc32/v4.21/pic32mx/include/musl",
+						"/opt/microchip/xc32/v4.21/lib/gcc/pic32mx/8.3.1/include",
+						"/opt/microchip/xc32/v4.21/pic32mx/include/pic32m-libs"
+					],
+					"linkDirectories" : 
+					[
+						"/opt/microchip/xc32/v4.21/lib/gcc/pic32mx/8.3.1",
+						"/opt/microchip/xc32/v4.21/lib/gcc",
+						"/opt/microchip/xc32/v4.21/pic32mx/lib",
+						"/opt/microchip/xc32/v4.21/pic32mx/lib/proc/32MXGENERIC"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"gcc",
+						"pic32",
+						"debug",
+						"c-musl",
+						"m",
+						"e",
+						"m-musl",
+						"gcc",
+						"gcc"
+					]
+				},
+				"path" : "/opt/microchip/xc32/v4.21/bin/xc32-gcc",
+				"version" : "8.3.1"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/opt/microchip/xc32/v4.21/pic32mx/include/c++/8.3.1",
+						"/opt/microchip/xc32/v4.21/pic32mx/include/c++/8.3.1/pic32mx",
+						"/opt/microchip/xc32/v4.21/pic32mx/include/c++/8.3.1/backward",
+						"/opt/microchip/xc32/v4.21/pic32mx/include",
+						"/opt/microchip/xc32/v4.21/pic32mx/include/musl",
+						"/opt/microchip/xc32/v4.21/lib/gcc/pic32mx/8.3.1/include",
+						"/opt/microchip/xc32/v4.21/pic32mx/include/pic32m-libs"
+					],
+					"linkDirectories" : 
+					[
+						"/opt/microchip/xc32/v4.21/lib/gcc/pic32mx/8.3.1",
+						"/opt/microchip/xc32/v4.21/lib/gcc",
+						"/opt/microchip/xc32/v4.21/pic32mx/lib",
+						"/opt/microchip/xc32/v4.21/pic32mx/lib/proc/32MXGENERIC"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"gcc",
+						"pic32",
+						"debug",
+						"c-musl",
+						"m",
+						"e",
+						"m-musl",
+						"gcc",
+						"gcc"
+					]
+				},
+				"path" : "/opt/microchip/xc32/v4.21/bin/xc32-c++",
+				"version" : "8.3.1"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

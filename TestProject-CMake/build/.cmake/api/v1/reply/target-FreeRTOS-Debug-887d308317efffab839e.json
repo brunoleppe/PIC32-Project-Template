@@ -1,0 +1,389 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "FreeRTOS/libFreeRTOS.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_compile_options",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"FreeRTOS/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 21,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 22,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-mprocessor=32MZ1024EFM100"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-O1"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-no-legacy-libc"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/portable/MPLAB/PIC32MZ"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				16,
+				18,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-mprocessor=32MZ1024EFM100"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-O1"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-no-legacy-libc"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src/FreeRTOS/Source/portable/MPLAB/PIC32MZ"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/src"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				19
+			]
+		}
+	],
+	"id" : "FreeRTOS::@008c63fbeb607cc9a262",
+	"name" : "FreeRTOS",
+	"nameOnDisk" : "libFreeRTOS.a",
+	"paths" : 
+	{
+		"build" : "FreeRTOS",
+		"source" : "FreeRTOS"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				17,
+				20
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				16,
+				18,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				19
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "FreeRTOS/Source/include/croutine.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "FreeRTOS/Source/include/deprecated_definitions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "FreeRTOS/Source/include/event_groups.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "FreeRTOS/Source/include/FreeRTOS.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "FreeRTOS/Source/include/list.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "FreeRTOS/Source/include/message_buffer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "FreeRTOS/Source/include/mpu_prototypes.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "FreeRTOS/Source/include/mpu_wrappers.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "FreeRTOS/Source/include/portable.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "FreeRTOS/Source/include/projdefs.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "FreeRTOS/Source/include/queue.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "FreeRTOS/Source/include/semphr.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "FreeRTOS/Source/include/stack_macros.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "FreeRTOS/Source/include/stream_buffer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "FreeRTOS/Source/include/task.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "FreeRTOS/Source/include/timers.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "FreeRTOS/Source/portable/MemMang/heap_4.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "FreeRTOS/Source/portable/MPLAB/PIC32MZ/ISR_Support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "FreeRTOS/Source/portable/MPLAB/PIC32MZ/port.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "FreeRTOS/Source/portable/MPLAB/PIC32MZ/port_asm.S",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "FreeRTOS/Source/portable/MPLAB/PIC32MZ/portmacro.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "FreeRTOS/Source/croutine.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "FreeRTOS/Source/event_groups.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "FreeRTOS/Source/FreeRTOS_tasks.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "FreeRTOS/Source/list.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "FreeRTOS/Source/queue.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "FreeRTOS/Source/stream_buffer.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "FreeRTOS/Source/timers.c",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

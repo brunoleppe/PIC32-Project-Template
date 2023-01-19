@@ -28,9 +28,6 @@ default_target: all
 
 .SUFFIXES: .hpux_make_needs_suffix_list
 
-# Produce verbose output by default.
-VERBOSE = 1
-
 # Command-line flag to silence nested $(MAKE).
 $(VERBOSE)MAKESILENT = -s
 
@@ -68,30 +65,47 @@ CMAKE_BINARY_DIR = /home/bleppe/Documents/Github/PIC32-Project-Template/TestProj
 # The main recursive "all" target.
 all: CMakeFiles/test.elf.dir/all
 all: CMakeFiles/test.hex.dir/all
+all: FreeRTOS/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: FreeRTOS/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/test.elf.dir/clean
 clean: CMakeFiles/test.hex.dir/clean
+clean: FreeRTOS/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory FreeRTOS
+
+# Recursive "all" directory target.
+FreeRTOS/all: FreeRTOS/CMakeFiles/FreeRTOS.dir/all
+.PHONY : FreeRTOS/all
+
+# Recursive "preinstall" directory target.
+FreeRTOS/preinstall:
+.PHONY : FreeRTOS/preinstall
+
+# Recursive "clean" directory target.
+FreeRTOS/clean: FreeRTOS/CMakeFiles/FreeRTOS.dir/clean
+.PHONY : FreeRTOS/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/test.elf.dir
 
 # All Build rule for target.
-CMakeFiles/test.elf.dir/all:
+CMakeFiles/test.elf.dir/all: FreeRTOS/CMakeFiles/FreeRTOS.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.elf.dir/build.make CMakeFiles/test.elf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.elf.dir/build.make CMakeFiles/test.elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target test.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles --progress-num=12,13,14 "Built target test.elf"
 .PHONY : CMakeFiles/test.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test.elf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test.elf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles 0
 .PHONY : CMakeFiles/test.elf.dir/rule
@@ -112,12 +126,12 @@ CMakeFiles/test.elf.dir/clean:
 CMakeFiles/test.hex.dir/all: CMakeFiles/test.elf.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.hex.dir/build.make CMakeFiles/test.hex.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.hex.dir/build.make CMakeFiles/test.hex.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles --progress-num=6 "Built target test.hex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles --progress-num=15 "Built target test.hex"
 .PHONY : CMakeFiles/test.hex.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test.hex.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test.hex.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles 0
 .PHONY : CMakeFiles/test.hex.dir/rule
@@ -130,6 +144,32 @@ test.hex: CMakeFiles/test.hex.dir/rule
 CMakeFiles/test.hex.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.hex.dir/build.make CMakeFiles/test.hex.dir/clean
 .PHONY : CMakeFiles/test.hex.dir/clean
+
+#=============================================================================
+# Target rules for target FreeRTOS/CMakeFiles/FreeRTOS.dir
+
+# All Build rule for target.
+FreeRTOS/CMakeFiles/FreeRTOS.dir/all:
+	$(MAKE) $(MAKESILENT) -f FreeRTOS/CMakeFiles/FreeRTOS.dir/build.make FreeRTOS/CMakeFiles/FreeRTOS.dir/depend
+	$(MAKE) $(MAKESILENT) -f FreeRTOS/CMakeFiles/FreeRTOS.dir/build.make FreeRTOS/CMakeFiles/FreeRTOS.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target FreeRTOS"
+.PHONY : FreeRTOS/CMakeFiles/FreeRTOS.dir/all
+
+# Build rule for subdir invocation for target.
+FreeRTOS/CMakeFiles/FreeRTOS.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles 11
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FreeRTOS/CMakeFiles/FreeRTOS.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles 0
+.PHONY : FreeRTOS/CMakeFiles/FreeRTOS.dir/rule
+
+# Convenience name for target.
+FreeRTOS: FreeRTOS/CMakeFiles/FreeRTOS.dir/rule
+.PHONY : FreeRTOS
+
+# clean rule for target.
+FreeRTOS/CMakeFiles/FreeRTOS.dir/clean:
+	$(MAKE) $(MAKESILENT) -f FreeRTOS/CMakeFiles/FreeRTOS.dir/build.make FreeRTOS/CMakeFiles/FreeRTOS.dir/clean
+.PHONY : FreeRTOS/CMakeFiles/FreeRTOS.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -1,9 +1,8 @@
 #include <xc.h>
-
 #include "initialization.h"
 
-/*Configuration bits*/
 
+// <editor-fold defaultstate="collapsed" desc="Configuration Bits">
 #pragma config DEBUG =      OFF
 #pragma config JTAGEN =     OFF
 #pragma config ICESEL =     ICS_PGx1
@@ -58,6 +57,7 @@
 #pragma config TSEQ =       0xffff
 #pragma config CSEQ =       0x0
 
+
 void Initialize(void)
 {
     __builtin_disable_interrupts();
@@ -67,7 +67,10 @@ void Initialize(void)
     PRECONbits.PFMWS = 3;
     CFGCONbits.ECCCON = 3;
     
-    /*PORTB6 as digital output*/
+    INTCONSET = _INTCON_MVEC_MASK;
+    
     TRISBCLR = 1 << 6;
     LATBCLR = 1 << 6;
+
+    __builtin_enable_interrupts();
 }

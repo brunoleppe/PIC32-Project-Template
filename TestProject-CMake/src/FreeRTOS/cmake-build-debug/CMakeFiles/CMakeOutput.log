@@ -1,0 +1,437 @@
+The system is: Linux - 5.15.0-58-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/microchip/xc32/v4.21/bin/xc32-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+/opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/../../../../bin/pic32m-ld: warning: cannot find entry symbol _reset; defaulting to 000000009d000000
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/microchip/xc32/v4.21/bin/xc32-c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+/opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/../../../../bin/pic32m-ld: warning: cannot find entry symbol _reset; defaulting to 000000009d000000
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/make -f Makefile cmTC_d5cce/fast && /bin/make  -f CMakeFiles/cmTC_d5cce.dir/build.make CMakeFiles/cmTC_d5cce.dir/build
+make[1]: Entering directory '/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d5cce.dir/CMakeCCompilerABI.c.o
+/opt/microchip/xc32/v4.21/bin/xc32-gcc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_d5cce.dir/CMakeCCompilerABI.c.o -c /home/bleppe/clion-2022.3.1/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCCompilerABI.c
+Microchip Language Tool Shell Version 4.21 (Build date: Dec  5 2022).
+Copyright (c) 2012-2017 Microchip Technology Inc. All rights reserved
+Using built-in specs.
+Reading specs from /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/pic32m.musl.specs
+rename spec link to old_link
+COLLECT_GCC=/opt/microchip/xc32/v4.21/bin/bin/pic32m-gcc
+Target: pic32mx
+Configured with: /data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/src/xc32-gcc/gcc/configure --target=pic32mx --prefix=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux --program-prefix=pic32m- --with-sysroot=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/pic32mx --with-bugurl=http://www.microchip.com/support --with-pkgversion='Microchip XC32 Compiler v4.21' --bindir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/bin/bin --infodir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/share/doc/xc32-pic32m-gcc/info --mandir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/share/doc/xc32-pic32m-gcc/man --libdir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/lib --libexecdir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/bin/bin --with-build-sysroot=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/pic32mx --enable-stage1-languages=c --enable-languages=c,c++ --enable-target-optspace --disable-comdat --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-libssp --disable-libmudflap --disable-libffi --disable-libfortran --disable-bootstrap --disable-shared --disable-nls --disable-gdb --disable-libgomp --disable-threads --disable-sim --disable-decimal-float --disable-libquadmath --disable-shared --disable-checking --disable-maintainer-mode --enable-lto --enable-fixed-point --enable-gofast --enable-static --enable-sgxx-sde-multilibs --enable-sjlj-exceptions --enable-poison-system-directories --enable-obsolete --without-isl --without-cloog --without-headers --with-musl --with-dwarf2 --with-gnu-as --with-gnu-ld --with-host-libstdcxx='-static-libgcc -static-libstdc++ -Wl,-lstdc++ -lm' CC_FOR_TARGET=pic32m-gcc CXX_FOR_TARGET=pic32m-g++ AS_FOR_TARGET=pic32m-as AR_FOR_TARGET=pic32m-ar LD_FOR_TARGET=pic32m-ld NM_FOR_TARGET=pic32m-nm OBJCOPY_FOR_TARGET=pic32m-objcopy OBJDUMP_FOR_TARGET=pic32m-objdump RANLIB_FOR_TARGET=pic32m-ranlib READELF_FOR_TARGET=pic32m-readelf STRIP_FOR_TARGET=pic32m-strip 'XGCC_FLAGS_FOR_TARGET=-fno-enforce-eh-specs -mno-smart-io' 'CFLAGS_FOR_TARGET=-O2 -mno-smart-io -fomit-frame-pointer -mchp-stack-usage' 'CXXFLAGS_FOR_TARGET=-O2 -mno-smart-io -fomit-frame-pointer -mchp-stack-usage -frtti -fexceptions -fno-enforce-eh-specs' CXX=g++ CC=gcc CPP=cpp CPPFLAGS='-I/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/build-Linux/opt/include -imacros host-defs.h' CFLAGS='-m64 -g -fdebug-prefix-map=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/src=/xc32/src -fdebug-prefix-map=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/build-Linux=/xc32/pic32m-build' CXXFLAGS='-m64 -g -fdebug-prefix-map=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/src=/xc32/src -fdebug-prefix-map=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/build-Linux=/xc32/pic32m-build' LDFLAGS=-L/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/build-Linux/opt/lib
+Thread model: single
+gcc version 8.3.1 (Microchip XC32 Compiler v4.21) 
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d5cce.dir/CMakeCCompilerABI.c.o' '-c' '-mips32r2' '-mabi=32' '-mno-default-isr-vectors' '-msoft-float'
+ /opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/cc1 -quiet -v -iprefix /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/ -isysroot /opt/microchip/xc32/v4.21/bin/bin/../../pic32mx /home/bleppe/clion-2022.3.1/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCCompilerABI.c -fno-asynchronous-unwind-tables -fno-dwarf2-cfi-asm -mconfig-data-dir=/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/./proc/32MXGENERIC -quiet -dumpbase CMakeCCompilerABI.c -mips32r2 -mabi=32 -mno-default-isr-vectors -msoft-float -auxbase-strip CMakeFiles/cmTC_d5cce.dir/CMakeCCompilerABI.c.o -version -fdiagnostics-color=always -o /tmp/cc9okuFg.s
+GNU C17 (Microchip XC32 Compiler v4.21) version 8.3.1 (pic32mx)
+	compiled by GNU C version 9.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx/usr/local/include"
+ignoring nonexistent directory "/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/pic32mx/include"
+ignoring nonexistent directory "/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/pic32mx//include/musl"
+ignoring nonexistent directory "/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/lib/gcc/pic32mx/8.3.1/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/include
+ /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/include/../../../../../pic32mx//include/musl
+ /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/include
+ /opt/microchip/xc32/v4.21/bin/bin/../../pic32mx/include/pic32m-libs
+End of search list.
+GNU C17 (Microchip XC32 Compiler v4.21) version 8.3.1 (pic32mx)
+	compiled by GNU C version 9.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 292a92f3dcd1741bec4af2b484b53a42
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d5cce.dir/CMakeCCompilerABI.c.o' '-c' '-mips32r2' '-mabi=32' '-mno-default-isr-vectors' '-msoft-float'
+ /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/bin/as -v -v -mno-pdr -msoft-float --trap -o CMakeFiles/cmTC_d5cce.dir/CMakeCCompilerABI.c.o /tmp/cc9okuFg.s
+GNU assembler version 2.32.0 (pic32mx) using BFD version (Microchip XC32 Compiler v4.21) 2.32.0.20190703
+XC32_COMPILER_PATH=/opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/:/opt/microchip/xc32/v4.21/bin/bin/gcc/:/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/bin/
+XC32_LIBRARY_PATH=/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/:/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/:/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/:/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx/lib/
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d5cce.dir/CMakeCCompilerABI.c.o' '-c' '-mips32r2' '-mabi=32' '-mno-default-isr-vectors' '-msoft-float'
+Linking C executable cmTC_d5cce
+/home/bleppe/clion-2022.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5cce.dir/link.txt --verbose=1
+/opt/microchip/xc32/v4.21/bin/xc32-gcc  -v CMakeFiles/cmTC_d5cce.dir/CMakeCCompilerABI.c.o -o cmTC_d5cce 
+Microchip Language Tool Shell Version 4.21 (Build date: Dec  5 2022).
+Copyright (c) 2012-2017 Microchip Technology Inc. All rights reserved
+Using built-in specs.
+Reading specs from /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/pic32m.musl.specs
+rename spec link to old_link
+COLLECT_GCC=/opt/microchip/xc32/v4.21/bin/bin/pic32m-gcc
+COLLECT_LTO_WRAPPER=/opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/lto-wrapper
+Target: pic32mx
+Configured with: /data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/src/xc32-gcc/gcc/configure --target=pic32mx --prefix=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux --program-prefix=pic32m- --with-sysroot=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/pic32mx --with-bugurl=http://www.microchip.com/support --with-pkgversion='Microchip XC32 Compiler v4.21' --bindir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/bin/bin --infodir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/share/doc/xc32-pic32m-gcc/info --mandir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/share/doc/xc32-pic32m-gcc/man --libdir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/lib --libexecdir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/bin/bin --with-build-sysroot=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/pic32mx --enable-stage1-languages=c --enable-languages=c,c++ --enable-target-optspace --disable-comdat --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-libssp --disable-libmudflap --disable-libffi --disable-libfortran --disable-bootstrap --disable-shared --disable-nls --disable-gdb --disable-libgomp --disable-threads --disable-sim --disable-decimal-float --disable-libquadmath --disable-shared --disable-checking --disable-maintainer-mode --enable-lto --enable-fixed-point --enable-gofast --enable-static --enable-sgxx-sde-multilibs --enable-sjlj-exceptions --enable-poison-system-directories --enable-obsolete --without-isl --without-cloog --without-headers --with-musl --with-dwarf2 --with-gnu-as --with-gnu-ld --with-host-libstdcxx='-static-libgcc -static-libstdc++ -Wl,-lstdc++ -lm' CC_FOR_TARGET=pic32m-gcc CXX_FOR_TARGET=pic32m-g++ AS_FOR_TARGET=pic32m-as AR_FOR_TARGET=pic32m-ar LD_FOR_TARGET=pic32m-ld NM_FOR_TARGET=pic32m-nm OBJCOPY_FOR_TARGET=pic32m-objcopy OBJDUMP_FOR_TARGET=pic32m-objdump RANLIB_FOR_TARGET=pic32m-ranlib READELF_FOR_TARGET=pic32m-readelf STRIP_FOR_TARGET=pic32m-strip 'XGCC_FLAGS_FOR_TARGET=-fno-enforce-eh-specs -mno-smart-io' 'CFLAGS_FOR_TARGET=-O2 -mno-smart-io -fomit-frame-pointer -mchp-stack-usage' 'CXXFLAGS_FOR_TARGET=-O2 -mno-smart-io -fomit-frame-pointer -mchp-stack-usage -frtti -fexceptions -fno-enforce-eh-specs' CXX=g++ CC=gcc CPP=cpp CPPFLAGS='-I/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/build-Linux/opt/include -imacros host-defs.h' CFLAGS='-m64 -g -fdebug-prefix-map=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/src=/xc32/src -fdebug-prefix-map=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/build-Linux=/xc32/pic32m-build' CXXFLAGS='-m64 -g -fdebug-prefix-map=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/src=/xc32/src -fdebug-prefix-map=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/build-Linux=/xc32/pic32m-build' LDFLAGS=-L/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/build-Linux/opt/lib
+Thread model: single
+gcc version 8.3.1 (Microchip XC32 Compiler v4.21) 
+XC32_COMPILER_PATH=/opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/:/opt/microchip/xc32/v4.21/bin/bin/gcc/:/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/bin/
+XC32_LIBRARY_PATH=/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/:/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/:/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/:/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d5cce' '-mips32r2' '-mabi=32' '-mno-default-isr-vectors' '-msoft-float'
+ /opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/collect2 -plugin /opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/liblto_plugin.so -plugin-opt=/opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2Tw6PB.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpic32 -plugin-opt=-pass-through=-ldebug -plugin-opt=-pass-through=-lc-musl -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-le -plugin-opt=-pass-through=-lm-musl -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc --sysroot=/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx -mips32r2 -o cmTC_d5cce -L/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1 -L/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc -L/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib -L/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx/lib -L /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/./proc/32MXGENERIC CMakeFiles/cmTC_d5cce.dir/CMakeCCompilerABI.c.o -lgcc --start-group -lpic32 -ldebug -lc-musl -lm -le -lm-musl -lgcc --end-group -lgcc
+/opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/../../../../bin/pic32m-ld: warning: cannot find entry symbol _reset; defaulting to 000000009d000000
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d5cce' '-mips32r2' '-mabi=32' '-mno-default-isr-vectors' '-msoft-float'
+make[1]: Leaving directory '/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/include]
+    add: [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/include/../../../../../pic32mx//include/musl]
+    add: [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/include]
+    add: [/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx/include/pic32m-libs]
+  end of search list found
+  collapse include dir [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/include] ==> [/opt/microchip/xc32/v4.21/pic32mx/include]
+  collapse include dir [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/include/../../../../../pic32mx//include/musl] ==> [/opt/microchip/xc32/v4.21/pic32mx/include/musl]
+  collapse include dir [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/include] ==> [/opt/microchip/xc32/v4.21/lib/gcc/pic32mx/8.3.1/include]
+  collapse include dir [/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx/include/pic32m-libs] ==> [/opt/microchip/xc32/v4.21/pic32mx/include/pic32m-libs]
+  implicit include dirs: [/opt/microchip/xc32/v4.21/pic32mx/include;/opt/microchip/xc32/v4.21/pic32mx/include/musl;/opt/microchip/xc32/v4.21/lib/gcc/pic32mx/8.3.1/include;/opt/microchip/xc32/v4.21/pic32mx/include/pic32m-libs]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(xc32-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/bin/make -f Makefile cmTC_d5cce/fast && /bin/make  -f CMakeFiles/cmTC_d5cce.dir/build.make CMakeFiles/cmTC_d5cce.dir/build]
+  ignore line: [make[1]: Entering directory '/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_d5cce.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/microchip/xc32/v4.21/bin/xc32-gcc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_d5cce.dir/CMakeCCompilerABI.c.o -c /home/bleppe/clion-2022.3.1/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCCompilerABI.c]
+  ignore line: [Microchip Language Tool Shell Version 4.21 (Build date: Dec  5 2022).]
+  ignore line: [Copyright (c) 2012-2017 Microchip Technology Inc. All rights reserved]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/pic32m.musl.specs]
+  ignore line: [rename spec link to old_link]
+  ignore line: [COLLECT_GCC=/opt/microchip/xc32/v4.21/bin/bin/pic32m-gcc]
+  ignore line: [Target: pic32mx]
+  ignore line: [Configured with: /data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/src/xc32-gcc/gcc/configure --target=pic32mx --prefix=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux --program-prefix=pic32m- --with-sysroot=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/pic32mx --with-bugurl=http://www.microchip.com/support --with-pkgversion='Microchip XC32 Compiler v4.21' --bindir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/bin/bin --infodir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/share/doc/xc32-pic32m-gcc/info --mandir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/share/doc/xc32-pic32m-gcc/man --libdir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/lib --libexecdir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/bin/bin --with-build-sysroot=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/pic32mx --enable-stage1-languages=c --enable-languages=c,c++ --enable-target-optspace --disable-comdat --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-libssp --disable-libmudflap --disable-libffi --disable-libfortran --disable-bootstrap --disable-shared --disable-nls --disable-gdb --disable-libgomp --disable-threads --disable-sim --disable-decimal-float --disable-libquadmath --disable-shared --disable-checking --disable-maintainer-mode --enable-lto --enable-fixed-point --enable-gofast --enable-static --enable-sgxx-sde-multilibs --enable-sjlj-exceptions --enable-poison-system-directories --enable-obsolete --without-isl --without-cloog --without-headers --with-musl --with-dwarf2 --with-gnu-as --with-gnu-ld --with-host-libstdcxx='-static-libgcc -static-libstdc++ -Wl,-lstdc++ -lm' CC_FOR_TARGET=pic32m-gcc CXX_FOR_TARGET=pic32m-g++ AS_FOR_TARGET=pic32m-as AR_FOR_TARGET=pic32m-ar LD_FOR_TARGET=pic32m-ld NM_FOR_TARGET=pic32m-nm OBJCOPY_FOR_TARGET=pic32m-objcopy OBJDUMP_FOR_TARGET=pic32m-objdump RANLIB_FOR_TARGET=pic32m-ranlib READELF_FOR_TARGET=pic32m-readelf STRIP_FOR_TARGET=pic32m-strip 'XGCC_FLAGS_FOR_TARGET=-fno-enforce-eh-specs -mno-smart-io' 'CFLAGS_FOR_TARGET=-O2 -mno-smart-io -fomit-frame-pointer -mchp-stack-usage' 'CXXFLAGS_FOR_TARGET=-O2 -mno-smart-io -fomit-frame-pointer -mchp-stack-usage -frtti -fexceptions -fno-enforce-eh-specs' CXX=g++ CC=gcc CPP=cpp CPPFLAGS='-I/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/build-Linux/opt/include -imacros host-defs.h' CFLAGS='-m64 -g -fdebug-prefix-map=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/src=/xc32/src -fdebug-prefix-map=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/build-Linux=/xc32/pic32m-build' CXXFLAGS='-m64 -g -fdebug-prefix-map=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/src=/xc32/src -fdebug-prefix-map=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/build-Linux=/xc32/pic32m-build' LDFLAGS=-L/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/build-Linux/opt/lib]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 8.3.1 (Microchip XC32 Compiler v4.21) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d5cce.dir/CMakeCCompilerABI.c.o' '-c' '-mips32r2' '-mabi=32' '-mno-default-isr-vectors' '-msoft-float']
+  ignore line: [ /opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/cc1 -quiet -v -iprefix /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/ -isysroot /opt/microchip/xc32/v4.21/bin/bin/../../pic32mx /home/bleppe/clion-2022.3.1/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCCompilerABI.c -fno-asynchronous-unwind-tables -fno-dwarf2-cfi-asm -mconfig-data-dir=/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/./proc/32MXGENERIC -quiet -dumpbase CMakeCCompilerABI.c -mips32r2 -mabi=32 -mno-default-isr-vectors -msoft-float -auxbase-strip CMakeFiles/cmTC_d5cce.dir/CMakeCCompilerABI.c.o -version -fdiagnostics-color=always -o /tmp/cc9okuFg.s]
+  ignore line: [GNU C17 (Microchip XC32 Compiler v4.21) version 8.3.1 (pic32mx)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/pic32mx/include"]
+  ignore line: [ignoring nonexistent directory "/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/pic32mx//include/musl"]
+  ignore line: [ignoring nonexistent directory "/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/lib/gcc/pic32mx/8.3.1/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/include]
+  ignore line: [ /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/include/../../../../../pic32mx//include/musl]
+  ignore line: [ /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/include]
+  ignore line: [ /opt/microchip/xc32/v4.21/bin/bin/../../pic32mx/include/pic32m-libs]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Microchip XC32 Compiler v4.21) version 8.3.1 (pic32mx)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 292a92f3dcd1741bec4af2b484b53a42]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d5cce.dir/CMakeCCompilerABI.c.o' '-c' '-mips32r2' '-mabi=32' '-mno-default-isr-vectors' '-msoft-float']
+  ignore line: [ /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/bin/as -v -v -mno-pdr -msoft-float --trap -o CMakeFiles/cmTC_d5cce.dir/CMakeCCompilerABI.c.o /tmp/cc9okuFg.s]
+  ignore line: [GNU assembler version 2.32.0 (pic32mx) using BFD version (Microchip XC32 Compiler v4.21) 2.32.0.20190703]
+  ignore line: [XC32_COMPILER_PATH=/opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/:/opt/microchip/xc32/v4.21/bin/bin/gcc/:/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/bin/]
+  ignore line: [XC32_LIBRARY_PATH=/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/:/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/:/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/:/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d5cce.dir/CMakeCCompilerABI.c.o' '-c' '-mips32r2' '-mabi=32' '-mno-default-isr-vectors' '-msoft-float']
+  ignore line: [Linking C executable cmTC_d5cce]
+  ignore line: [/home/bleppe/clion-2022.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5cce.dir/link.txt --verbose=1]
+  ignore line: [/opt/microchip/xc32/v4.21/bin/xc32-gcc  -v CMakeFiles/cmTC_d5cce.dir/CMakeCCompilerABI.c.o -o cmTC_d5cce ]
+  ignore line: [Microchip Language Tool Shell Version 4.21 (Build date: Dec  5 2022).]
+  ignore line: [Copyright (c) 2012-2017 Microchip Technology Inc. All rights reserved]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/pic32m.musl.specs]
+  ignore line: [rename spec link to old_link]
+  ignore line: [COLLECT_GCC=/opt/microchip/xc32/v4.21/bin/bin/pic32m-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/lto-wrapper]
+  ignore line: [Target: pic32mx]
+  ignore line: [Configured with: /data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/src/xc32-gcc/gcc/configure --target=pic32mx --prefix=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux --program-prefix=pic32m- --with-sysroot=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/pic32mx --with-bugurl=http://www.microchip.com/support --with-pkgversion='Microchip XC32 Compiler v4.21' --bindir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/bin/bin --infodir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/share/doc/xc32-pic32m-gcc/info --mandir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/share/doc/xc32-pic32m-gcc/man --libdir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/lib --libexecdir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/bin/bin --with-build-sysroot=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/pic32mx --enable-stage1-languages=c --enable-languages=c,c++ --enable-target-optspace --disable-comdat --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-libssp --disable-libmudflap --disable-libffi --disable-libfortran --disable-bootstrap --disable-shared --disable-nls --disable-gdb --disable-libgomp --disable-threads --disable-sim --disable-decimal-float --disable-libquadmath --disable-shared --disable-checking --disable-maintainer-mode --enable-lto --enable-fixed-point --enable-gofast --enable-static --enable-sgxx-sde-multilibs --enable-sjlj-exceptions --enable-poison-system-directories --enable-obsolete --without-isl --without-cloog --without-headers --with-musl --with-dwarf2 --with-gnu-as --with-gnu-ld --with-host-libstdcxx='-static-libgcc -static-libstdc++ -Wl,-lstdc++ -lm' CC_FOR_TARGET=pic32m-gcc CXX_FOR_TARGET=pic32m-g++ AS_FOR_TARGET=pic32m-as AR_FOR_TARGET=pic32m-ar LD_FOR_TARGET=pic32m-ld NM_FOR_TARGET=pic32m-nm OBJCOPY_FOR_TARGET=pic32m-objcopy OBJDUMP_FOR_TARGET=pic32m-objdump RANLIB_FOR_TARGET=pic32m-ranlib READELF_FOR_TARGET=pic32m-readelf STRIP_FOR_TARGET=pic32m-strip 'XGCC_FLAGS_FOR_TARGET=-fno-enforce-eh-specs -mno-smart-io' 'CFLAGS_FOR_TARGET=-O2 -mno-smart-io -fomit-frame-pointer -mchp-stack-usage' 'CXXFLAGS_FOR_TARGET=-O2 -mno-smart-io -fomit-frame-pointer -mchp-stack-usage -frtti -fexceptions -fno-enforce-eh-specs' CXX=g++ CC=gcc CPP=cpp CPPFLAGS='-I/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/build-Linux/opt/include -imacros host-defs.h' CFLAGS='-m64 -g -fdebug-prefix-map=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/src=/xc32/src -fdebug-prefix-map=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/build-Linux=/xc32/pic32m-build' CXXFLAGS='-m64 -g -fdebug-prefix-map=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/src=/xc32/src -fdebug-prefix-map=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/build-Linux=/xc32/pic32m-build' LDFLAGS=-L/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/build-Linux/opt/lib]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 8.3.1 (Microchip XC32 Compiler v4.21) ]
+  ignore line: [XC32_COMPILER_PATH=/opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/:/opt/microchip/xc32/v4.21/bin/bin/gcc/:/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/bin/]
+  ignore line: [XC32_LIBRARY_PATH=/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/:/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/:/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/:/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d5cce' '-mips32r2' '-mabi=32' '-mno-default-isr-vectors' '-msoft-float']
+  link line: [ /opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/collect2 -plugin /opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/liblto_plugin.so -plugin-opt=/opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2Tw6PB.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpic32 -plugin-opt=-pass-through=-ldebug -plugin-opt=-pass-through=-lc-musl -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-le -plugin-opt=-pass-through=-lm-musl -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc --sysroot=/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx -mips32r2 -o cmTC_d5cce -L/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1 -L/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc -L/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib -L/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx/lib -L /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/./proc/32MXGENERIC CMakeFiles/cmTC_d5cce.dir/CMakeCCompilerABI.c.o -lgcc --start-group -lpic32 -ldebug -lc-musl -lm -le -lm-musl -lgcc --end-group -lgcc]
+    arg [/opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc2Tw6PB.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpic32] ==> ignore
+    arg [-plugin-opt=-pass-through=-ldebug] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc-musl] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-le] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm-musl] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx] ==> ignore
+    arg [-mips32r2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d5cce] ==> ignore
+    arg [-L/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1] ==> dir [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1]
+    arg [-L/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc] ==> dir [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc]
+    arg [-L/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib] ==> dir [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib]
+    arg [-L/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx/lib] ==> dir [/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx/lib]
+    arg [-L/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/./proc/32MXGENERIC] ==> dir [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/./proc/32MXGENERIC]
+    arg [CMakeFiles/cmTC_d5cce.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--start-group] ==> ignore
+    arg [-lpic32] ==> lib [pic32]
+    arg [-ldebug] ==> lib [debug]
+    arg [-lc-musl] ==> lib [c-musl]
+    arg [-lm] ==> lib [m]
+    arg [-le] ==> lib [e]
+    arg [-lm-musl] ==> lib [m-musl]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--end-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+  collapse library dir [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1] ==> [/opt/microchip/xc32/v4.21/lib/gcc/pic32mx/8.3.1]
+  collapse library dir [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc] ==> [/opt/microchip/xc32/v4.21/lib/gcc]
+  collapse library dir [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib] ==> [/opt/microchip/xc32/v4.21/pic32mx/lib]
+  collapse library dir [/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx/lib] ==> [/opt/microchip/xc32/v4.21/pic32mx/lib]
+  collapse library dir [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/./proc/32MXGENERIC] ==> [/opt/microchip/xc32/v4.21/pic32mx/lib/proc/32MXGENERIC]
+  implicit libs: [gcc;pic32;debug;c-musl;m;e;m-musl;gcc;gcc]
+  implicit objs: []
+  implicit dirs: [/opt/microchip/xc32/v4.21/lib/gcc/pic32mx/8.3.1;/opt/microchip/xc32/v4.21/lib/gcc;/opt/microchip/xc32/v4.21/pic32mx/lib;/opt/microchip/xc32/v4.21/pic32mx/lib/proc/32MXGENERIC]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/make -f Makefile cmTC_18ca2/fast && /bin/make  -f CMakeFiles/cmTC_18ca2.dir/build.make CMakeFiles/cmTC_18ca2.dir/build
+make[1]: Entering directory '/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_18ca2.dir/CMakeCXXCompilerABI.cpp.o
+/opt/microchip/xc32/v4.21/bin/xc32-c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_18ca2.dir/CMakeCXXCompilerABI.cpp.o -c /home/bleppe/clion-2022.3.1/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp
+Microchip Language Tool Shell Version 4.21 (Build date: Dec  5 2022).
+Copyright (c) 2012-2017 Microchip Technology Inc. All rights reserved
+Using built-in specs.
+Reading specs from /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/pic32m.musl.specs
+rename spec link to old_link
+COLLECT_GCC=/opt/microchip/xc32/v4.21/bin/bin/pic32m-c++
+Target: pic32mx
+Configured with: /data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/src/xc32-gcc/gcc/configure --target=pic32mx --prefix=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux --program-prefix=pic32m- --with-sysroot=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/pic32mx --with-bugurl=http://www.microchip.com/support --with-pkgversion='Microchip XC32 Compiler v4.21' --bindir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/bin/bin --infodir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/share/doc/xc32-pic32m-gcc/info --mandir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/share/doc/xc32-pic32m-gcc/man --libdir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/lib --libexecdir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/bin/bin --with-build-sysroot=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/pic32mx --enable-stage1-languages=c --enable-languages=c,c++ --enable-target-optspace --disable-comdat --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-libssp --disable-libmudflap --disable-libffi --disable-libfortran --disable-bootstrap --disable-shared --disable-nls --disable-gdb --disable-libgomp --disable-threads --disable-sim --disable-decimal-float --disable-libquadmath --disable-shared --disable-checking --disable-maintainer-mode --enable-lto --enable-fixed-point --enable-gofast --enable-static --enable-sgxx-sde-multilibs --enable-sjlj-exceptions --enable-poison-system-directories --enable-obsolete --without-isl --without-cloog --without-headers --with-musl --with-dwarf2 --with-gnu-as --with-gnu-ld --with-host-libstdcxx='-static-libgcc -static-libstdc++ -Wl,-lstdc++ -lm' CC_FOR_TARGET=pic32m-gcc CXX_FOR_TARGET=pic32m-g++ AS_FOR_TARGET=pic32m-as AR_FOR_TARGET=pic32m-ar LD_FOR_TARGET=pic32m-ld NM_FOR_TARGET=pic32m-nm OBJCOPY_FOR_TARGET=pic32m-objcopy OBJDUMP_FOR_TARGET=pic32m-objdump RANLIB_FOR_TARGET=pic32m-ranlib READELF_FOR_TARGET=pic32m-readelf STRIP_FOR_TARGET=pic32m-strip 'XGCC_FLAGS_FOR_TARGET=-fno-enforce-eh-specs -mno-smart-io' 'CFLAGS_FOR_TARGET=-O2 -mno-smart-io -fomit-frame-pointer -mchp-stack-usage' 'CXXFLAGS_FOR_TARGET=-O2 -mno-smart-io -fomit-frame-pointer -mchp-stack-usage -frtti -fexceptions -fno-enforce-eh-specs' CXX=g++ CC=gcc CPP=cpp CPPFLAGS='-I/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/build-Linux/opt/include -imacros host-defs.h' CFLAGS='-m64 -g -fdebug-prefix-map=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/src=/xc32/src -fdebug-prefix-map=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/build-Linux=/xc32/pic32m-build' CXXFLAGS='-m64 -g -fdebug-prefix-map=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/src=/xc32/src -fdebug-prefix-map=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/build-Linux=/xc32/pic32m-build' LDFLAGS=-L/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/build-Linux/opt/lib
+Thread model: single
+gcc version 8.3.1 (Microchip XC32 Compiler v4.21) 
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_18ca2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mips32r2' '-mabi=32' '-mno-default-isr-vectors' '-msoft-float'
+ /opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/cc1plus -quiet -v -iprefix /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/ -isysroot /opt/microchip/xc32/v4.21/bin/bin/../../pic32mx /home/bleppe/clion-2022.3.1/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -fno-asynchronous-unwind-tables -fno-dwarf2-cfi-asm -mconfig-data-dir=/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/./proc/32MXGENERIC -quiet -dumpbase CMakeCXXCompilerABI.cpp -mips32r2 -mabi=32 -mno-default-isr-vectors -msoft-float -auxbase-strip CMakeFiles/cmTC_18ca2.dir/CMakeCXXCompilerABI.cpp.o -version -fdiagnostics-color=always -fno-enforce-eh-specs -msmart-io=0 -o /tmp/ccx5URZI.s
+GNU C++14 (Microchip XC32 Compiler v4.21) version 8.3.1 (pic32mx)
+	compiled by GNU C version 9.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/pic32mx/include/c++/8.3.1"
+ignoring nonexistent directory "/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/pic32mx/include/c++/8.3.1/pic32mx"
+ignoring nonexistent directory "/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/pic32mx/include/c++/8.3.1/backward"
+ignoring nonexistent directory "/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx/usr/local/include"
+ignoring nonexistent directory "/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/pic32mx/include"
+ignoring nonexistent directory "/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/pic32mx//include/musl"
+ignoring nonexistent directory "/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/lib/gcc/pic32mx/8.3.1/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/include/c++/8.3.1
+ /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/include/c++/8.3.1/pic32mx
+ /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/include/c++/8.3.1/backward
+ /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/include
+ /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/include/../../../../../pic32mx//include/musl
+ /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/include
+ /opt/microchip/xc32/v4.21/bin/bin/../../pic32mx/include/pic32m-libs
+End of search list.
+GNU C++14 (Microchip XC32 Compiler v4.21) version 8.3.1 (pic32mx)
+	compiled by GNU C version 9.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3c59de4f90e7bc68833109f18c96245c
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_18ca2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mips32r2' '-mabi=32' '-mno-default-isr-vectors' '-msoft-float'
+ /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/bin/as -v -v -mno-pdr -msoft-float --trap -o CMakeFiles/cmTC_18ca2.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccx5URZI.s
+GNU assembler version 2.32.0 (pic32mx) using BFD version (Microchip XC32 Compiler v4.21) 2.32.0.20190703
+XC32_COMPILER_PATH=/opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/:/opt/microchip/xc32/v4.21/bin/bin/gcc/:/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/bin/
+XC32_LIBRARY_PATH=/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/:/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/:/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/:/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx/lib/
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_18ca2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mips32r2' '-mabi=32' '-mno-default-isr-vectors' '-msoft-float'
+Linking CXX executable cmTC_18ca2
+/home/bleppe/clion-2022.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18ca2.dir/link.txt --verbose=1
+/opt/microchip/xc32/v4.21/bin/xc32-c++  -v CMakeFiles/cmTC_18ca2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_18ca2 
+Microchip Language Tool Shell Version 4.21 (Build date: Dec  5 2022).
+Copyright (c) 2012-2017 Microchip Technology Inc. All rights reserved
+Using built-in specs.
+Reading specs from /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/pic32m.musl.specs
+rename spec link to old_link
+COLLECT_GCC=/opt/microchip/xc32/v4.21/bin/bin/pic32m-c++
+COLLECT_LTO_WRAPPER=/opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/lto-wrapper
+Target: pic32mx
+Configured with: /data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/src/xc32-gcc/gcc/configure --target=pic32mx --prefix=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux --program-prefix=pic32m- --with-sysroot=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/pic32mx --with-bugurl=http://www.microchip.com/support --with-pkgversion='Microchip XC32 Compiler v4.21' --bindir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/bin/bin --infodir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/share/doc/xc32-pic32m-gcc/info --mandir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/share/doc/xc32-pic32m-gcc/man --libdir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/lib --libexecdir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/bin/bin --with-build-sysroot=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/pic32mx --enable-stage1-languages=c --enable-languages=c,c++ --enable-target-optspace --disable-comdat --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-libssp --disable-libmudflap --disable-libffi --disable-libfortran --disable-bootstrap --disable-shared --disable-nls --disable-gdb --disable-libgomp --disable-threads --disable-sim --disable-decimal-float --disable-libquadmath --disable-shared --disable-checking --disable-maintainer-mode --enable-lto --enable-fixed-point --enable-gofast --enable-static --enable-sgxx-sde-multilibs --enable-sjlj-exceptions --enable-poison-system-directories --enable-obsolete --without-isl --without-cloog --without-headers --with-musl --with-dwarf2 --with-gnu-as --with-gnu-ld --with-host-libstdcxx='-static-libgcc -static-libstdc++ -Wl,-lstdc++ -lm' CC_FOR_TARGET=pic32m-gcc CXX_FOR_TARGET=pic32m-g++ AS_FOR_TARGET=pic32m-as AR_FOR_TARGET=pic32m-ar LD_FOR_TARGET=pic32m-ld NM_FOR_TARGET=pic32m-nm OBJCOPY_FOR_TARGET=pic32m-objcopy OBJDUMP_FOR_TARGET=pic32m-objdump RANLIB_FOR_TARGET=pic32m-ranlib READELF_FOR_TARGET=pic32m-readelf STRIP_FOR_TARGET=pic32m-strip 'XGCC_FLAGS_FOR_TARGET=-fno-enforce-eh-specs -mno-smart-io' 'CFLAGS_FOR_TARGET=-O2 -mno-smart-io -fomit-frame-pointer -mchp-stack-usage' 'CXXFLAGS_FOR_TARGET=-O2 -mno-smart-io -fomit-frame-pointer -mchp-stack-usage -frtti -fexceptions -fno-enforce-eh-specs' CXX=g++ CC=gcc CPP=cpp CPPFLAGS='-I/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/build-Linux/opt/include -imacros host-defs.h' CFLAGS='-m64 -g -fdebug-prefix-map=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/src=/xc32/src -fdebug-prefix-map=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/build-Linux=/xc32/pic32m-build' CXXFLAGS='-m64 -g -fdebug-prefix-map=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/src=/xc32/src -fdebug-prefix-map=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/build-Linux=/xc32/pic32m-build' LDFLAGS=-L/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/build-Linux/opt/lib
+Thread model: single
+gcc version 8.3.1 (Microchip XC32 Compiler v4.21) 
+XC32_COMPILER_PATH=/opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/:/opt/microchip/xc32/v4.21/bin/bin/gcc/:/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/bin/
+XC32_LIBRARY_PATH=/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/:/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/:/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/:/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_18ca2' '-mips32r2' '-mabi=32' '-mno-default-isr-vectors' '-msoft-float'
+ /opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/collect2 -plugin /opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/liblto_plugin.so -plugin-opt=/opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cctoVtEc.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpic32 -plugin-opt=-pass-through=-ldebug -plugin-opt=-pass-through=-lc-musl -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-le -plugin-opt=-pass-through=-lm-musl -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc --sysroot=/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx -mips32r2 -o cmTC_18ca2 -DCPP_INIT=1 /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/crti.o /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/crtbegin.o -L/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1 -L/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc -L/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib -L/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx/lib -L /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/./proc/32MXGENERIC CMakeFiles/cmTC_18ca2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc --start-group -lpic32 -ldebug -lc-musl -lm -le -lm-musl -lgcc --end-group -lgcc /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/crtend.o /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/crtn.o
+/opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/../../../../bin/pic32m-ld: warning: cannot find entry symbol _reset; defaulting to 000000009d000000
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_18ca2' '-mips32r2' '-mabi=32' '-mno-default-isr-vectors' '-msoft-float'
+make[1]: Leaving directory '/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/include/c++/8.3.1]
+    add: [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/include/c++/8.3.1/pic32mx]
+    add: [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/include/c++/8.3.1/backward]
+    add: [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/include]
+    add: [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/include/../../../../../pic32mx//include/musl]
+    add: [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/include]
+    add: [/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx/include/pic32m-libs]
+  end of search list found
+  collapse include dir [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/include/c++/8.3.1] ==> [/opt/microchip/xc32/v4.21/pic32mx/include/c++/8.3.1]
+  collapse include dir [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/include/c++/8.3.1/pic32mx] ==> [/opt/microchip/xc32/v4.21/pic32mx/include/c++/8.3.1/pic32mx]
+  collapse include dir [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/include/c++/8.3.1/backward] ==> [/opt/microchip/xc32/v4.21/pic32mx/include/c++/8.3.1/backward]
+  collapse include dir [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/include] ==> [/opt/microchip/xc32/v4.21/pic32mx/include]
+  collapse include dir [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/include/../../../../../pic32mx//include/musl] ==> [/opt/microchip/xc32/v4.21/pic32mx/include/musl]
+  collapse include dir [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/include] ==> [/opt/microchip/xc32/v4.21/lib/gcc/pic32mx/8.3.1/include]
+  collapse include dir [/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx/include/pic32m-libs] ==> [/opt/microchip/xc32/v4.21/pic32mx/include/pic32m-libs]
+  implicit include dirs: [/opt/microchip/xc32/v4.21/pic32mx/include/c++/8.3.1;/opt/microchip/xc32/v4.21/pic32mx/include/c++/8.3.1/pic32mx;/opt/microchip/xc32/v4.21/pic32mx/include/c++/8.3.1/backward;/opt/microchip/xc32/v4.21/pic32mx/include;/opt/microchip/xc32/v4.21/pic32mx/include/musl;/opt/microchip/xc32/v4.21/lib/gcc/pic32mx/8.3.1/include;/opt/microchip/xc32/v4.21/pic32mx/include/pic32m-libs]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(xc32-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/bin/make -f Makefile cmTC_18ca2/fast && /bin/make  -f CMakeFiles/cmTC_18ca2.dir/build.make CMakeFiles/cmTC_18ca2.dir/build]
+  ignore line: [make[1]: Entering directory '/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_18ca2.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/microchip/xc32/v4.21/bin/xc32-c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_18ca2.dir/CMakeCXXCompilerABI.cpp.o -c /home/bleppe/clion-2022.3.1/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Microchip Language Tool Shell Version 4.21 (Build date: Dec  5 2022).]
+  ignore line: [Copyright (c) 2012-2017 Microchip Technology Inc. All rights reserved]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/pic32m.musl.specs]
+  ignore line: [rename spec link to old_link]
+  ignore line: [COLLECT_GCC=/opt/microchip/xc32/v4.21/bin/bin/pic32m-c++]
+  ignore line: [Target: pic32mx]
+  ignore line: [Configured with: /data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/src/xc32-gcc/gcc/configure --target=pic32mx --prefix=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux --program-prefix=pic32m- --with-sysroot=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/pic32mx --with-bugurl=http://www.microchip.com/support --with-pkgversion='Microchip XC32 Compiler v4.21' --bindir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/bin/bin --infodir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/share/doc/xc32-pic32m-gcc/info --mandir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/share/doc/xc32-pic32m-gcc/man --libdir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/lib --libexecdir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/bin/bin --with-build-sysroot=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/pic32mx --enable-stage1-languages=c --enable-languages=c,c++ --enable-target-optspace --disable-comdat --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-libssp --disable-libmudflap --disable-libffi --disable-libfortran --disable-bootstrap --disable-shared --disable-nls --disable-gdb --disable-libgomp --disable-threads --disable-sim --disable-decimal-float --disable-libquadmath --disable-shared --disable-checking --disable-maintainer-mode --enable-lto --enable-fixed-point --enable-gofast --enable-static --enable-sgxx-sde-multilibs --enable-sjlj-exceptions --enable-poison-system-directories --enable-obsolete --without-isl --without-cloog --without-headers --with-musl --with-dwarf2 --with-gnu-as --with-gnu-ld --with-host-libstdcxx='-static-libgcc -static-libstdc++ -Wl,-lstdc++ -lm' CC_FOR_TARGET=pic32m-gcc CXX_FOR_TARGET=pic32m-g++ AS_FOR_TARGET=pic32m-as AR_FOR_TARGET=pic32m-ar LD_FOR_TARGET=pic32m-ld NM_FOR_TARGET=pic32m-nm OBJCOPY_FOR_TARGET=pic32m-objcopy OBJDUMP_FOR_TARGET=pic32m-objdump RANLIB_FOR_TARGET=pic32m-ranlib READELF_FOR_TARGET=pic32m-readelf STRIP_FOR_TARGET=pic32m-strip 'XGCC_FLAGS_FOR_TARGET=-fno-enforce-eh-specs -mno-smart-io' 'CFLAGS_FOR_TARGET=-O2 -mno-smart-io -fomit-frame-pointer -mchp-stack-usage' 'CXXFLAGS_FOR_TARGET=-O2 -mno-smart-io -fomit-frame-pointer -mchp-stack-usage -frtti -fexceptions -fno-enforce-eh-specs' CXX=g++ CC=gcc CPP=cpp CPPFLAGS='-I/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/build-Linux/opt/include -imacros host-defs.h' CFLAGS='-m64 -g -fdebug-prefix-map=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/src=/xc32/src -fdebug-prefix-map=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/build-Linux=/xc32/pic32m-build' CXXFLAGS='-m64 -g -fdebug-prefix-map=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/src=/xc32/src -fdebug-prefix-map=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/build-Linux=/xc32/pic32m-build' LDFLAGS=-L/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/build-Linux/opt/lib]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 8.3.1 (Microchip XC32 Compiler v4.21) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_18ca2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mips32r2' '-mabi=32' '-mno-default-isr-vectors' '-msoft-float']
+  ignore line: [ /opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/cc1plus -quiet -v -iprefix /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/ -isysroot /opt/microchip/xc32/v4.21/bin/bin/../../pic32mx /home/bleppe/clion-2022.3.1/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -fno-asynchronous-unwind-tables -fno-dwarf2-cfi-asm -mconfig-data-dir=/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/./proc/32MXGENERIC -quiet -dumpbase CMakeCXXCompilerABI.cpp -mips32r2 -mabi=32 -mno-default-isr-vectors -msoft-float -auxbase-strip CMakeFiles/cmTC_18ca2.dir/CMakeCXXCompilerABI.cpp.o -version -fdiagnostics-color=always -fno-enforce-eh-specs -msmart-io=0 -o /tmp/ccx5URZI.s]
+  ignore line: [GNU C++14 (Microchip XC32 Compiler v4.21) version 8.3.1 (pic32mx)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/pic32mx/include/c++/8.3.1"]
+  ignore line: [ignoring nonexistent directory "/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/pic32mx/include/c++/8.3.1/pic32mx"]
+  ignore line: [ignoring nonexistent directory "/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/pic32mx/include/c++/8.3.1/backward"]
+  ignore line: [ignoring nonexistent directory "/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/pic32mx/include"]
+  ignore line: [ignoring nonexistent directory "/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/pic32mx//include/musl"]
+  ignore line: [ignoring nonexistent directory "/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/lib/gcc/pic32mx/8.3.1/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/include/c++/8.3.1]
+  ignore line: [ /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/include/c++/8.3.1/pic32mx]
+  ignore line: [ /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/include/c++/8.3.1/backward]
+  ignore line: [ /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/include]
+  ignore line: [ /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/include/../../../../../pic32mx//include/musl]
+  ignore line: [ /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/include]
+  ignore line: [ /opt/microchip/xc32/v4.21/bin/bin/../../pic32mx/include/pic32m-libs]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Microchip XC32 Compiler v4.21) version 8.3.1 (pic32mx)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 3c59de4f90e7bc68833109f18c96245c]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_18ca2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mips32r2' '-mabi=32' '-mno-default-isr-vectors' '-msoft-float']
+  ignore line: [ /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/bin/as -v -v -mno-pdr -msoft-float --trap -o CMakeFiles/cmTC_18ca2.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccx5URZI.s]
+  ignore line: [GNU assembler version 2.32.0 (pic32mx) using BFD version (Microchip XC32 Compiler v4.21) 2.32.0.20190703]
+  ignore line: [XC32_COMPILER_PATH=/opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/:/opt/microchip/xc32/v4.21/bin/bin/gcc/:/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/bin/]
+  ignore line: [XC32_LIBRARY_PATH=/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/:/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/:/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/:/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_18ca2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mips32r2' '-mabi=32' '-mno-default-isr-vectors' '-msoft-float']
+  ignore line: [Linking CXX executable cmTC_18ca2]
+  ignore line: [/home/bleppe/clion-2022.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18ca2.dir/link.txt --verbose=1]
+  ignore line: [/opt/microchip/xc32/v4.21/bin/xc32-c++  -v CMakeFiles/cmTC_18ca2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_18ca2 ]
+  ignore line: [Microchip Language Tool Shell Version 4.21 (Build date: Dec  5 2022).]
+  ignore line: [Copyright (c) 2012-2017 Microchip Technology Inc. All rights reserved]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/pic32m.musl.specs]
+  ignore line: [rename spec link to old_link]
+  ignore line: [COLLECT_GCC=/opt/microchip/xc32/v4.21/bin/bin/pic32m-c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/lto-wrapper]
+  ignore line: [Target: pic32mx]
+  ignore line: [Configured with: /data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/src/xc32-gcc/gcc/configure --target=pic32mx --prefix=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux --program-prefix=pic32m- --with-sysroot=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/pic32mx --with-bugurl=http://www.microchip.com/support --with-pkgversion='Microchip XC32 Compiler v4.21' --bindir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/bin/bin --infodir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/share/doc/xc32-pic32m-gcc/info --mandir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/share/doc/xc32-pic32m-gcc/man --libdir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/lib --libexecdir=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/bin/bin --with-build-sysroot=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/install-Linux/pic32mx --enable-stage1-languages=c --enable-languages=c,c++ --enable-target-optspace --disable-comdat --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-libssp --disable-libmudflap --disable-libffi --disable-libfortran --disable-bootstrap --disable-shared --disable-nls --disable-gdb --disable-libgomp --disable-threads --disable-sim --disable-decimal-float --disable-libquadmath --disable-shared --disable-checking --disable-maintainer-mode --enable-lto --enable-fixed-point --enable-gofast --enable-static --enable-sgxx-sde-multilibs --enable-sjlj-exceptions --enable-poison-system-directories --enable-obsolete --without-isl --without-cloog --without-headers --with-musl --with-dwarf2 --with-gnu-as --with-gnu-ld --with-host-libstdcxx='-static-libgcc -static-libstdc++ -Wl,-lstdc++ -lm' CC_FOR_TARGET=pic32m-gcc CXX_FOR_TARGET=pic32m-g++ AS_FOR_TARGET=pic32m-as AR_FOR_TARGET=pic32m-ar LD_FOR_TARGET=pic32m-ld NM_FOR_TARGET=pic32m-nm OBJCOPY_FOR_TARGET=pic32m-objcopy OBJDUMP_FOR_TARGET=pic32m-objdump RANLIB_FOR_TARGET=pic32m-ranlib READELF_FOR_TARGET=pic32m-readelf STRIP_FOR_TARGET=pic32m-strip 'XGCC_FLAGS_FOR_TARGET=-fno-enforce-eh-specs -mno-smart-io' 'CFLAGS_FOR_TARGET=-O2 -mno-smart-io -fomit-frame-pointer -mchp-stack-usage' 'CXXFLAGS_FOR_TARGET=-O2 -mno-smart-io -fomit-frame-pointer -mchp-stack-usage -frtti -fexceptions -fno-enforce-eh-specs' CXX=g++ CC=gcc CPP=cpp CPPFLAGS='-I/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/build-Linux/opt/include -imacros host-defs.h' CFLAGS='-m64 -g -fdebug-prefix-map=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/src=/xc32/src -fdebug-prefix-map=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/build-Linux=/xc32/pic32m-build' CXXFLAGS='-m64 -g -fdebug-prefix-map=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/src=/xc32/src -fdebug-prefix-map=/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/build-Linux=/xc32/pic32m-build' LDFLAGS=-L/data01/build/bamboo/xml-data/build-dir/M32DEV-WOZ14-JOB1/build-Linux/opt/lib]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 8.3.1 (Microchip XC32 Compiler v4.21) ]
+  ignore line: [XC32_COMPILER_PATH=/opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/:/opt/microchip/xc32/v4.21/bin/bin/gcc/:/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/bin/]
+  ignore line: [XC32_LIBRARY_PATH=/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/:/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/:/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/:/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_18ca2' '-mips32r2' '-mabi=32' '-mno-default-isr-vectors' '-msoft-float']
+  link line: [ /opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/collect2 -plugin /opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/liblto_plugin.so -plugin-opt=/opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cctoVtEc.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpic32 -plugin-opt=-pass-through=-ldebug -plugin-opt=-pass-through=-lc-musl -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-le -plugin-opt=-pass-through=-lm-musl -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc --sysroot=/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx -mips32r2 -o cmTC_18ca2 -DCPP_INIT=1 /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/crti.o /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/crtbegin.o -L/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1 -L/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc -L/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib -L/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx/lib -L /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/./proc/32MXGENERIC CMakeFiles/cmTC_18ca2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc --start-group -lpic32 -ldebug -lc-musl -lm -le -lm-musl -lgcc --end-group -lgcc /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/crtend.o /opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/crtn.o]
+    arg [/opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/microchip/xc32/v4.21/bin/bin/gcc/pic32mx/8.3.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cctoVtEc.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpic32] ==> ignore
+    arg [-plugin-opt=-pass-through=-ldebug] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc-musl] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-le] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm-musl] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx] ==> ignore
+    arg [-mips32r2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_18ca2] ==> ignore
+    arg [-DCPP_INIT=1] ==> ignore
+    arg [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/crti.o] ==> obj [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/crti.o]
+    arg [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/crtbegin.o] ==> obj [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/crtbegin.o]
+    arg [-L/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1] ==> dir [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1]
+    arg [-L/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc] ==> dir [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc]
+    arg [-L/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib] ==> dir [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib]
+    arg [-L/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx/lib] ==> dir [/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx/lib]
+    arg [-L/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/./proc/32MXGENERIC] ==> dir [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/./proc/32MXGENERIC]
+    arg [CMakeFiles/cmTC_18ca2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--start-group] ==> ignore
+    arg [-lpic32] ==> lib [pic32]
+    arg [-ldebug] ==> lib [debug]
+    arg [-lc-musl] ==> lib [c-musl]
+    arg [-lm] ==> lib [m]
+    arg [-le] ==> lib [e]
+    arg [-lm-musl] ==> lib [m-musl]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--end-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/crtend.o] ==> obj [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/crtend.o]
+    arg [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/crtn.o] ==> obj [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/crtn.o]
+  collapse obj [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/crti.o] ==> [/opt/microchip/xc32/v4.21/lib/gcc/pic32mx/8.3.1/crti.o]
+  collapse obj [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/crtbegin.o] ==> [/opt/microchip/xc32/v4.21/lib/gcc/pic32mx/8.3.1/crtbegin.o]
+  collapse obj [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/crtend.o] ==> [/opt/microchip/xc32/v4.21/lib/gcc/pic32mx/8.3.1/crtend.o]
+  collapse obj [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/crtn.o] ==> [/opt/microchip/xc32/v4.21/lib/gcc/pic32mx/8.3.1/crtn.o]
+  collapse library dir [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1] ==> [/opt/microchip/xc32/v4.21/lib/gcc/pic32mx/8.3.1]
+  collapse library dir [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc] ==> [/opt/microchip/xc32/v4.21/lib/gcc]
+  collapse library dir [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib] ==> [/opt/microchip/xc32/v4.21/pic32mx/lib]
+  collapse library dir [/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx/lib] ==> [/opt/microchip/xc32/v4.21/pic32mx/lib]
+  collapse library dir [/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/./proc/32MXGENERIC] ==> [/opt/microchip/xc32/v4.21/pic32mx/lib/proc/32MXGENERIC]
+  implicit libs: [stdc++;gcc;pic32;debug;c-musl;m;e;m-musl;gcc;gcc]
+  implicit objs: [/opt/microchip/xc32/v4.21/lib/gcc/pic32mx/8.3.1/crti.o;/opt/microchip/xc32/v4.21/lib/gcc/pic32mx/8.3.1/crtbegin.o;/opt/microchip/xc32/v4.21/lib/gcc/pic32mx/8.3.1/crtend.o;/opt/microchip/xc32/v4.21/lib/gcc/pic32mx/8.3.1/crtn.o]
+  implicit dirs: [/opt/microchip/xc32/v4.21/lib/gcc/pic32mx/8.3.1;/opt/microchip/xc32/v4.21/lib/gcc;/opt/microchip/xc32/v4.21/pic32mx/lib;/opt/microchip/xc32/v4.21/pic32mx/lib/proc/32MXGENERIC]
+  implicit fwks: []
+
+

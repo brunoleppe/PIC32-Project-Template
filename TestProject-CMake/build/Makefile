@@ -31,9 +31,6 @@ default_target: all
 
 .SUFFIXES: .hpux_make_needs_suffix_list
 
-# Produce verbose output by default.
-VERBOSE = 1
-
 # Command-line flag to silence nested $(MAKE).
 $(VERBOSE)MAKESILENT = -s
 
@@ -70,8 +67,8 @@ CMAKE_BINARY_DIR = /home/bleppe/Documents/Github/PIC32-Project-Template/TestProj
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -145,37 +142,18 @@ test.hex/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.hex.dir/build.make CMakeFiles/test.hex.dir/build
 .PHONY : test.hex/fast
 
-delay.o: delay.c.o
-.PHONY : delay.o
+#=============================================================================
+# Target rules for targets named FreeRTOS
 
-# target to build an object file
-delay.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.elf.dir/build.make CMakeFiles/test.elf.dir/delay.c.o
-.PHONY : delay.c.o
+# Build rule for target.
+FreeRTOS: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FreeRTOS
+.PHONY : FreeRTOS
 
-delay.i: delay.c.i
-.PHONY : delay.i
-
-# target to preprocess a source file
-delay.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.elf.dir/build.make CMakeFiles/test.elf.dir/delay.c.i
-.PHONY : delay.c.i
-
-delay.s: delay.c.s
-.PHONY : delay.s
-
-# target to generate assembly for a file
-delay.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.elf.dir/build.make CMakeFiles/test.elf.dir/delay.c.s
-.PHONY : delay.c.s
-
-ex1.o: ex1.S.o
-.PHONY : ex1.o
-
-# target to build an object file
-ex1.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.elf.dir/build.make CMakeFiles/test.elf.dir/ex1.S.o
-.PHONY : ex1.S.o
+# fast build rule for target.
+FreeRTOS/fast:
+	$(MAKE) $(MAKESILENT) -f FreeRTOS/CMakeFiles/FreeRTOS.dir/build.make FreeRTOS/CMakeFiles/FreeRTOS.dir/build
+.PHONY : FreeRTOS/fast
 
 initialization.o: initialization.c.o
 .PHONY : initialization.o
@@ -234,11 +212,8 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test.hex"
+	@echo "... FreeRTOS"
 	@echo "... test.elf"
-	@echo "... delay.o"
-	@echo "... delay.i"
-	@echo "... delay.s"
-	@echo "... ex1.o"
 	@echo "... initialization.o"
 	@echo "... initialization.i"
 	@echo "... initialization.s"

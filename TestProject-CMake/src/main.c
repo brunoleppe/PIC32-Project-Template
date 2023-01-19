@@ -1,28 +1,33 @@
-#include <xc.h>
+#include <stdlib.h>
+#include <string.h>
+
 #include "initialization.h"
-#include "delay.h"
+#include "FreeRTOS.h"
+#include "task.h"
 
-extern void asmFunction(int bits);
-extern unsigned int asmVariable;
-volatile unsigned int cVariable = 0;
-volatile unsigned int jak = 0;
 
-int main(void)
-{
-    /*Initialize processor and pin B6*/
+void blink(void *params);
+
+int main(void){
+    
+    /*Initialize processor*/
     Initialize();
-
-    asmFunction(0xA55Au);
-    asmVariable++;
-
+    /*Create a FreeRTOS Task*/
+    xTaskCreate(blink,"blink_task",256,NULL,1,NULL);
+    
     while(1){
-        /*toggle pin b6 every ~500ms*/
-        LATBINV = 1<<6;
-        _delay_ms(500);
+        /*Start FreeRTOS scheduler*/
+        vTaskStartScheduler();
     }
+    
+    return EXIT_SUCCESS;
 }
 
-void foo (void)
+void blink(void *params)
 {
-    jak++;
+    while(1){
+        /*Toggle pin B6 every ~500ms*/
+        LATBINV = 1 << 6;
+        vTaskDelay(500);
+    }
 }

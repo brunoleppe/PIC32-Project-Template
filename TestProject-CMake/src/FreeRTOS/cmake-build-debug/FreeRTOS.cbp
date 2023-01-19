@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="FreeRTOS"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/bin/make -j8 -f &quot;/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/bin/make -j8 -f &quot;/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/make -j8 -f &quot;/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/make -j8 -f &quot;/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FreeRTOS">
+				<Option output="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/FreeRTOS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/Source/include"/>
+					<Add directory="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/Source/portable/MPLAB/PIC32MZ"/>
+					<Add directory="/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/include/c++/8.3.1"/>
+					<Add directory="/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/include/c++/8.3.1/pic32mx"/>
+					<Add directory="/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/include/c++/8.3.1/backward"/>
+					<Add directory="/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/include"/>
+					<Add directory="/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/include/../../../../../pic32mx//include/musl"/>
+					<Add directory="/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/include"/>
+					<Add directory="/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx/include/pic32m-libs"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/bin/make -j8 -f &quot;/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 FreeRTOS"/>
+					<CompileFile command="/bin/make -j8 -f &quot;/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/make -j8 -f &quot;/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/make -j8 -f &quot;/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FreeRTOS/fast">
+				<Option output="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/FreeRTOS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/Source/include"/>
+					<Add directory="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/Source/portable/MPLAB/PIC32MZ"/>
+					<Add directory="/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/include/c++/8.3.1"/>
+					<Add directory="/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/include/c++/8.3.1/pic32mx"/>
+					<Add directory="/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/include/c++/8.3.1/backward"/>
+					<Add directory="/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/include"/>
+					<Add directory="/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/include/../../../../../pic32mx//include/musl"/>
+					<Add directory="/opt/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32mx/8.3.1/include"/>
+					<Add directory="/opt/microchip/xc32/v4.21/bin/bin/../../pic32mx/include/pic32m-libs"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/bin/make -j8 -f &quot;/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 FreeRTOS/fast"/>
+					<CompileFile command="/bin/make -j8 -f &quot;/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/make -j8 -f &quot;/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/make -j8 -f &quot;/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/bin/make -j8 -f &quot;/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/bin/make -j8 -f &quot;/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/make -j8 -f &quot;/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/make -j8 -f &quot;/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/bin/make -j8 -f &quot;/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/bin/make -j8 -f &quot;/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/make -j8 -f &quot;/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/make -j8 -f &quot;/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/Source/FreeRTOS_tasks.c">
+			<Option target="FreeRTOS"/>
+		</Unit>
+		<Unit filename="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/Source/croutine.c">
+			<Option target="FreeRTOS"/>
+		</Unit>
+		<Unit filename="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/Source/event_groups.c">
+			<Option target="FreeRTOS"/>
+		</Unit>
+		<Unit filename="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/Source/include/FreeRTOS.h">
+			<Option target="FreeRTOS"/>
+		</Unit>
+		<Unit filename="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/Source/include/croutine.h">
+			<Option target="FreeRTOS"/>
+		</Unit>
+		<Unit filename="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/Source/include/deprecated_definitions.h">
+			<Option target="FreeRTOS"/>
+		</Unit>
+		<Unit filename="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/Source/include/event_groups.h">
+			<Option target="FreeRTOS"/>
+		</Unit>
+		<Unit filename="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/Source/include/list.h">
+			<Option target="FreeRTOS"/>
+		</Unit>
+		<Unit filename="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/Source/include/message_buffer.h">
+			<Option target="FreeRTOS"/>
+		</Unit>
+		<Unit filename="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/Source/include/mpu_prototypes.h">
+			<Option target="FreeRTOS"/>
+		</Unit>
+		<Unit filename="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/Source/include/mpu_wrappers.h">
+			<Option target="FreeRTOS"/>
+		</Unit>
+		<Unit filename="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/Source/include/portable.h">
+			<Option target="FreeRTOS"/>
+		</Unit>
+		<Unit filename="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/Source/include/projdefs.h">
+			<Option target="FreeRTOS"/>
+		</Unit>
+		<Unit filename="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/Source/include/queue.h">
+			<Option target="FreeRTOS"/>
+		</Unit>
+		<Unit filename="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/Source/include/semphr.h">
+			<Option target="FreeRTOS"/>
+		</Unit>
+		<Unit filename="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/Source/include/stack_macros.h">
+			<Option target="FreeRTOS"/>
+		</Unit>
+		<Unit filename="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/Source/include/stream_buffer.h">
+			<Option target="FreeRTOS"/>
+		</Unit>
+		<Unit filename="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/Source/include/task.h">
+			<Option target="FreeRTOS"/>
+		</Unit>
+		<Unit filename="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/Source/include/timers.h">
+			<Option target="FreeRTOS"/>
+		</Unit>
+		<Unit filename="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/Source/list.c">
+			<Option target="FreeRTOS"/>
+		</Unit>
+		<Unit filename="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/Source/portable/MPLAB/PIC32MZ/ISR_Support.h">
+			<Option target="FreeRTOS"/>
+		</Unit>
+		<Unit filename="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/Source/portable/MPLAB/PIC32MZ/port.c">
+			<Option target="FreeRTOS"/>
+		</Unit>
+		<Unit filename="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/Source/portable/MPLAB/PIC32MZ/port_asm.S">
+			<Option target="FreeRTOS"/>
+		</Unit>
+		<Unit filename="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/Source/portable/MPLAB/PIC32MZ/portmacro.h">
+			<Option target="FreeRTOS"/>
+		</Unit>
+		<Unit filename="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/Source/portable/MemMang/heap_4.c">
+			<Option target="FreeRTOS"/>
+		</Unit>
+		<Unit filename="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/Source/queue.c">
+			<Option target="FreeRTOS"/>
+		</Unit>
+		<Unit filename="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/Source/stream_buffer.c">
+			<Option target="FreeRTOS"/>
+		</Unit>
+		<Unit filename="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/Source/timers.c">
+			<Option target="FreeRTOS"/>
+		</Unit>
+		<Unit filename="/home/bleppe/Documents/Github/PIC32-Project-Template/TestFreeRTOS/src/FreeRTOS/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

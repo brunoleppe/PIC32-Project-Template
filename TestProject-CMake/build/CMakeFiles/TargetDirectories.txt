@@ -2,3 +2,6 @@
 /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles/test.hex.dir
 /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles/edit_cache.dir
 /home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/CMakeFiles/rebuild_cache.dir
+/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/FreeRTOS/CMakeFiles/FreeRTOS.dir
+/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/FreeRTOS/CMakeFiles/edit_cache.dir
+/home/bleppe/Documents/Github/PIC32-Project-Template/TestProject-CMake/build/FreeRTOS/CMakeFiles/rebuild_cache.dir
