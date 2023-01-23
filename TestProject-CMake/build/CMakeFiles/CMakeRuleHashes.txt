@@ -1,3 +1,0 @@
-# Hashes of file build rules.
-6302bc591b1c0c0a5e9aa312d4fd504f CMakeFiles/test.hex
-c72b4859e93a74272cbe14fa7c3388b3 test.hex

@@ -1,9 +1,6 @@
-# set(CMAKE_C_COMPILER xc32-gcc)
-
 set(PIC  32MZ1024EFM100)
 set(OPTIMIZATION 1)
 set(USER_FLAGS -Wall)
-set(USER_DEFINES BRUNO LEPPE)
 set(MPROCESSOR -mprocessor=${PIC})
 set(MOPTIMIZATION -O${OPTIMIZATION})
 
@@ -43,5 +40,3 @@ add_library(FreeRTOS
 )
 
 target_compile_options(FreeRTOS PUBLIC ${USER_FLAGS} ${MPROCESSOR} ${MOPTIMIZATION} -fdata-sections -ffunction-sections -no-legacy-libc)
-# target_compile_definitions(FreeRTOS PUBLIC __PIC32MZ__)
-# target_compile_options(FreeRTOS PUBLIC -fdata-sections -ffunction-sections -no-legacy-libc)

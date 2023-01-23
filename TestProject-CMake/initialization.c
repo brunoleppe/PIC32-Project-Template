@@ -1,7 +1,9 @@
-#include <xc.h>
+//
+// Created by bruno on 21/01/23.
+//
+
 #include "initialization.h"
-
-
+#include <xc.h>
 // <editor-fold defaultstate="collapsed" desc="Configuration Bits">
 #pragma config DEBUG =      OFF
 #pragma config JTAGEN =     OFF
@@ -61,16 +63,15 @@
 void Initialize(void)
 {
     __builtin_disable_interrupts();
-    
-    
+
     PRECONbits.PREFEN = 3;
     PRECONbits.PFMWS = 3;
     CFGCONbits.ECCCON = 3;
-    
+
     INTCONSET = _INTCON_MVEC_MASK;
-    
-    TRISBCLR = 1 << 6;
-    LATBCLR = 1 << 6;
+
+    TRISBCLR = 0xF << 6;
+    LATBCLR = 0xF << 6;
 
     __builtin_enable_interrupts();
 }
