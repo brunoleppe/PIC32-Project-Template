@@ -4,16 +4,17 @@ A PIC32 project template for working outside MPLAB X
 This project uses a custom Makefile to build .elf, .hex and .a files with xc32 compiler.
 Tested under Windows 10, 11 and Ubuntu 20.04.
 
+The new TestProject-CMake provides a CMakeLists.txt file for building with CMake. It uses FreeRTOS as a library with
+it's own CMakeLists.txt. 
+
 You can work in any text/code editor you want. 
 
 Debugging is possible outside mplab and is easy to work with, **but** you will need to install MPLAB X.
 Same with flashing your chips, you will need **ipecmd** or MPLAB IPE.
 ## Issues
-* When working on VS Code, Intellisense isn't going to work correctly on your project if you modify c_cpp_properties.json. Intellisense gets slow, REALLY SLOW, unusable for PIC32 projects.
-* Atom editor is not going to be mantained anymore but i've managed to get my projects working with intellisense on Linux. A bunch of plugins are needed, search for Atom as a C/C++ IDE. You will need ccls or similar to parse your files.   
 * Currently, for this makefile there's no support for c++ source files yet.
 * Currently, for this makefile there's no support for custom linker scirpts yet.
-* Building on linux is slow for some reason. 
+
 
 ### Working on windows
 Git Bash needed for building. The Makefile utilizes find command not available on Windows shells (Windows has its own version of find command not suitable for this Makefile).
@@ -78,4 +79,10 @@ Removes build directory
 ### print-%
 Outputs a Makefile variable value for Makefile debugging purposes.
 
-
+## Configuring the CMakeLists.txt
+Things needed to configure the CMakeLists.txt file:
+  1. path to XC32 Compiler
+  2. path to DFP
+  3. set device
+  4. set user flags
+  5. set user definitions.
